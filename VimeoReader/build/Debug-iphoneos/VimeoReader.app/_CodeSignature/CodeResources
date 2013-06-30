@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>GTMOAuthViewTouch.nib</key>
+		<data>
+		Hl7DN2qltqCJazHWDcagl2D45uo=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		EYIZXOVyze+mN03V8fqRHrHUM6Y=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>SAPInFixVideo.nib</key>
+		<data>
+		JSvSwQRampRVyyBeRfqSda9L0Yo=
+		</data>
+		<key>VideoList.nib</key>
+		<data>
+		SPZMLckFvTdEtoobJVfTOS6RhHE=
+		</data>
+		<key>VimeoReaderViewController.nib</key>
+		<data>
+		m/OpeznqZKoVsNDbr/rYPXOQx+M=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		hqrk9e7phjW4APeTFrhlr2+JfxQ=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

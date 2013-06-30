@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* VimeoReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* VimeoReaderAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* VimeoReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* VimeoReaderViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* VimeoReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* VimeoReaderViewController.m */; };
+		C50EAFF015B1B974000B5C64 /* VideoList.m in Sources */ = {isa = PBXBuildFile; fileRef = C50EAFEE15B1B974000B5C64 /* VideoList.m */; };
+		C50EAFF115B1B974000B5C64 /* VideoList.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50EAFEF15B1B974000B5C64 /* VideoList.xib */; };
+		C5E9B83A159AEA25002C34F9 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9B82F159AEA25002C34F9 /* NSObject+SBJSON.m */; };
+		C5E9B83B159AEA25002C34F9 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9B831159AEA25002C34F9 /* NSString+SBJSON.m */; };
+		C5E9B83C159AEA25002C34F9 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9B833159AEA25002C34F9 /* SBJSON.m */; };
+		C5E9B83D159AEA25002C34F9 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9B835159AEA25002C34F9 /* SBJsonBase.m */; };
+		C5E9B83E159AEA25002C34F9 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9B837159AEA25002C34F9 /* SBJsonParser.m */; };
+		C5E9B83F159AEA25002C34F9 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9B839159AEA25002C34F9 /* SBJsonWriter.m */; };
+		C5E9B86E159AFB35002C34F9 /* VimeoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */; };
+		C5E9BA68159B3520002C34F9 /* SAPInFixVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9BA66159B3520002C34F9 /* SAPInFixVideo.m */; };
+		C5E9BA69159B3520002C34F9 /* SAPInFixVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E9BA67159B3520002C34F9 /* SAPInFixVideo.xib */; };
+		C5E9BB18159B5DD8002C34F9 /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9BB10159B5DD8002C34F9 /* GTMHTTPFetcher.m */; };
+		C5E9BB19159B5DD8002C34F9 /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9BB12159B5DD8002C34F9 /* GTMOAuthAuthentication.m */; };
+		C5E9BB1A159B5DD8002C34F9 /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9BB14159B5DD8002C34F9 /* GTMOAuthSignIn.m */; };
+		C5E9BB1B159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9BB16159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.m */; };
+		C5E9BB1C159B5DD8002C34F9 /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E9BB17159B5DD8002C34F9 /* GTMOAuthViewTouch.xib */; };
+		C5E9BBC5159C2A11002C34F9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E9BBC4159C2A11002C34F9 /* Security.framework */; };
+		C5E9BBC7159C2A11002C34F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E9BBC6159C2A11002C34F9 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* VimeoReaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VimeoReaderAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* VimeoReaderAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VimeoReaderAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* VimeoReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimeoReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* VimeoReaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VimeoReaderViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* VimeoReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VimeoReaderViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* VimeoReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VimeoReaderViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* VimeoReader_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VimeoReader_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* VimeoReader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VimeoReader-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C50EAFED15B1B974000B5C64 /* VideoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoList.h; path = ../../SapInfix/SapInfix/VideoList.h; sourceTree = "<group>"; };
+		C50EAFEE15B1B974000B5C64 /* VideoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoList.m; path = ../../SapInfix/SapInfix/VideoList.m; sourceTree = "<group>"; };
+		C50EAFEF15B1B974000B5C64 /* VideoList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VideoList.xib; path = ../../SapInfix/SapInfix/VideoList.xib; sourceTree = "<group>"; };
+		C5E9B82D159AEA25002C34F9 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C5E9B82E159AEA25002C34F9 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C5E9B82F159AEA25002C34F9 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C5E9B830159AEA25002C34F9 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C5E9B831159AEA25002C34F9 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C5E9B832159AEA25002C34F9 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C5E9B833159AEA25002C34F9 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		C5E9B834159AEA25002C34F9 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		C5E9B835159AEA25002C34F9 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		C5E9B836159AEA25002C34F9 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C5E9B837159AEA25002C34F9 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C5E9B838159AEA25002C34F9 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C5E9B839159AEA25002C34F9 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C5E9B86C159AFB35002C34F9 /* VimeoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VimeoHelper.h; sourceTree = "<group>"; };
+		C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VimeoHelper.m; sourceTree = "<group>"; };
+		C5E9BA65159B3520002C34F9 /* SAPInFixVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPInFixVideo.h; sourceTree = "<group>"; };
+		C5E9BA66159B3520002C34F9 /* SAPInFixVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPInFixVideo.m; sourceTree = "<group>"; };
+		C5E9BA67159B3520002C34F9 /* SAPInFixVideo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SAPInFixVideo.xib; sourceTree = "<group>"; };
+		C5E9BB0F159B5DD8002C34F9 /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		C5E9BB10159B5DD8002C34F9 /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		C5E9BB11159B5DD8002C34F9 /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
+		C5E9BB12159B5DD8002C34F9 /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
+		C5E9BB13159B5DD8002C34F9 /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
+		C5E9BB14159B5DD8002C34F9 /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
+		C5E9BB15159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
+		C5E9BB16159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
+		C5E9BB17159B5DD8002C34F9 /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
+		C5E9BBC4159C2A11002C34F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C5E9BBC6159C2A11002C34F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C5E9BBC5159C2A11002C34F9 /* Security.framework in Frameworks */,
+				C5E9BBC7159C2A11002C34F9 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9BA65159B3520002C34F9 /* SAPInFixVideo.h */,
+				C5E9BA66159B3520002C34F9 /* SAPInFixVideo.m */,
+				C5E9BA67159B3520002C34F9 /* SAPInFixVideo.xib */,
+				C5E9B82C159AEA25002C34F9 /* JSON */,
+				1D3623240D0F684500981E51 /* VimeoReaderAppDelegate.h */,
+				1D3623250D0F684500981E51 /* VimeoReaderAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* VimeoReaderViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* VimeoReaderViewController.m */,
+				C50EAFED15B1B974000B5C64 /* VideoList.h */,
+				C50EAFEE15B1B974000B5C64 /* VideoList.m */,
+				C50EAFEF15B1B974000B5C64 /* VideoList.xib */,
+				C5E9B86C159AFB35002C34F9 /* VimeoHelper.h */,
+				C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* VimeoReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9BB0E159B5DD8002C34F9 /* OAuthLib */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* VimeoReader_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* VimeoReaderViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* VimeoReader-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				C5E9BBC4159C2A11002C34F9 /* Security.framework */,
+				C5E9BBC6159C2A11002C34F9 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E9B82C159AEA25002C34F9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9B82D159AEA25002C34F9 /* JSON.h */,
+				C5E9B82E159AEA25002C34F9 /* NSObject+SBJSON.h */,
+				C5E9B82F159AEA25002C34F9 /* NSObject+SBJSON.m */,
+				C5E9B830159AEA25002C34F9 /* NSString+SBJSON.h */,
+				C5E9B831159AEA25002C34F9 /* NSString+SBJSON.m */,
+				C5E9B832159AEA25002C34F9 /* SBJSON.h */,
+				C5E9B833159AEA25002C34F9 /* SBJSON.m */,
+				C5E9B834159AEA25002C34F9 /* SBJsonBase.h */,
+				C5E9B835159AEA25002C34F9 /* SBJsonBase.m */,
+				C5E9B836159AEA25002C34F9 /* SBJsonParser.h */,
+				C5E9B837159AEA25002C34F9 /* SBJsonParser.m */,
+				C5E9B838159AEA25002C34F9 /* SBJsonWriter.h */,
+				C5E9B839159AEA25002C34F9 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		C5E9BB0E159B5DD8002C34F9 /* OAuthLib */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9BB0F159B5DD8002C34F9 /* GTMHTTPFetcher.h */,
+				C5E9BB10159B5DD8002C34F9 /* GTMHTTPFetcher.m */,
+				C5E9BB11159B5DD8002C34F9 /* GTMOAuthAuthentication.h */,
+				C5E9BB12159B5DD8002C34F9 /* GTMOAuthAuthentication.m */,
+				C5E9BB13159B5DD8002C34F9 /* GTMOAuthSignIn.h */,
+				C5E9BB14159B5DD8002C34F9 /* GTMOAuthSignIn.m */,
+				C5E9BB15159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.h */,
+				C5E9BB16159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.m */,
+				C5E9BB17159B5DD8002C34F9 /* GTMOAuthViewTouch.xib */,
+			);
+			path = OAuthLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* VimeoReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VimeoReader" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimeoReader;
+			productName = VimeoReader;
+			productReference = 1D6058910D05DD3D006BFB54 /* VimeoReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VimeoReader" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* VimeoReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* VimeoReaderViewController.xib in Resources */,
+				C5E9BA69159B3520002C34F9 /* SAPInFixVideo.xib in Resources */,
+				C5E9BB1C159B5DD8002C34F9 /* GTMOAuthViewTouch.xib in Resources */,
+				C50EAFF115B1B974000B5C64 /* VideoList.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* VimeoReaderAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* VimeoReaderViewController.m in Sources */,
+				C5E9B83A159AEA25002C34F9 /* NSObject+SBJSON.m in Sources */,
+				C5E9B83B159AEA25002C34F9 /* NSString+SBJSON.m in Sources */,
+				C5E9B83C159AEA25002C34F9 /* SBJSON.m in Sources */,
+				C5E9B83D159AEA25002C34F9 /* SBJsonBase.m in Sources */,
+				C5E9B83E159AEA25002C34F9 /* SBJsonParser.m in Sources */,
+				C5E9B83F159AEA25002C34F9 /* SBJsonWriter.m in Sources */,
+				C5E9B86E159AFB35002C34F9 /* VimeoHelper.m in Sources */,
+				C5E9BA68159B3520002C34F9 /* SAPInFixVideo.m in Sources */,
+				C5E9BB18159B5DD8002C34F9 /* GTMHTTPFetcher.m in Sources */,
+				C5E9BB19159B5DD8002C34F9 /* GTMOAuthAuthentication.m in Sources */,
+				C5E9BB1A159B5DD8002C34F9 /* GTMOAuthSignIn.m in Sources */,
+				C5E9BB1B159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.m in Sources */,
+				C50EAFF015B1B974000B5C64 /* VideoList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VimeoReader_Prefix.pch;
+				INFOPLIST_FILE = "VimeoReader-Info.plist";
+				PRODUCT_NAME = VimeoReader;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VimeoReader_Prefix.pch;
+				INFOPLIST_FILE = "VimeoReader-Info.plist";
+				PRODUCT_NAME = VimeoReader;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VimeoReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VimeoReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* VimeoReaderAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 567}}";
+			sepNavSelRange = "{194, 25}";
+			sepNavVisRange = "{0, 638}";
+			sepNavWindowFrame = "{{15, 78}, {1230, 695}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* VimeoReaderAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1196}}";
+			sepNavSelRange = "{657, 0}";
+			sepNavVisRange = "{162, 1818}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* VimeoReader */ = {
+		activeExec = 0;
+		executables = (
+			C5E9B7F0159AE7F2002C34F9 /* VimeoReader */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* VimeoReaderViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 650}}";
+			sepNavSelRange = "{376, 11}";
+			sepNavVisRange = "{101, 1167}";
+			sepNavWindowFrame = "{{15, 78}, {1230, 695}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* VimeoReaderViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {887, 3705}}";
+			sepNavSelRange = "{3172, 0}";
+			sepNavVisRange = "{2276, 1625}";
+			sepNavWindowFrame = "{{15, 78}, {1230, 695}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C5E9B7F0159AE7F2002C34F9 /* VimeoReader */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* VimeoReader */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* VimeoReader */,
+		);
+		breakpoints = (
+			C5E9B98A159B1F62002C34F9 /* VimeoReaderViewController.m:64 */,
+			C5E9B995159B1F9D002C34F9 /* VideoList.m:23 */,
+			C5E9B9A1159B2007002C34F9 /* VideoList.m:89 */,
+			C5E9B9CE159B20C2002C34F9 /* VideoList.m:67 */,
+			C5E9B9D0159B20C5002C34F9 /* VideoList.m:73 */,
+			C5E9BBFD159C4961002C34F9 /* VimeoReaderViewController.m:108 */,
+			C545D601159C9BE700A9DB36 /* VimeoHelper.m:43 */,
+			C545D642159CAAF300A9DB36 /* VimeoHelper.m:66 */,
+			C545D644159CAAFF00A9DB36 /* VimeoHelper.m:79 */,
+			C545D665159CB50800A9DB36 /* VimeoHelper.m:99 */,
+		);
+		codeSenseManager = C5E9B7FD159AE807002C34F9 /* Code sense */;
+		executables = (
+			C5E9B7F0159AE7F2002C34F9 /* VimeoReader */,
+		);
+		expressions = (
+			token,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Built_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					642,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					582,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					602,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 362582280;
+			PBXWorkspaceStateSaveDate = 362582280;
+		};
+		perUserProjectItems = {
+			C545D5BC159C93DF00A9DB36 /* PBXTextBookmark */ = C545D5BC159C93DF00A9DB36 /* PBXTextBookmark */;
+			C545D5D1159C961400A9DB36 /* PBXTextBookmark */ = C545D5D1159C961400A9DB36 /* PBXTextBookmark */;
+			C545D5D2159C961400A9DB36 /* PBXTextBookmark */ = C545D5D2159C961400A9DB36 /* PBXTextBookmark */;
+			C545D5D3159C961400A9DB36 /* PBXTextBookmark */ = C545D5D3159C961400A9DB36 /* PBXTextBookmark */;
+			C545D605159C9BEE00A9DB36 /* PBXTextBookmark */ = C545D605159C9BEE00A9DB36 /* PBXTextBookmark */;
+			C545D606159C9BEE00A9DB36 /* PBXTextBookmark */ = C545D606159C9BEE00A9DB36 /* PBXTextBookmark */;
+			C545D615159C9C6900A9DB36 /* PBXTextBookmark */ = C545D615159C9C6900A9DB36 /* PBXTextBookmark */;
+			C545D6B6159CE72100A9DB36 /* PBXTextBookmark */ = C545D6B6159CE72100A9DB36 /* PBXTextBookmark */;
+			C545D6B7159CE72100A9DB36 /* PBXTextBookmark */ = C545D6B7159CE72100A9DB36 /* PBXTextBookmark */;
+			C545D76B159F209A00A9DB36 /* PBXTextBookmark */ = C545D76B159F209A00A9DB36 /* PBXTextBookmark */;
+			C545D76C159F209A00A9DB36 /* PBXTextBookmark */ = C545D76C159F209A00A9DB36 /* PBXTextBookmark */;
+			C545D76D159F209A00A9DB36 /* PBXTextBookmark */ = C545D76D159F209A00A9DB36 /* PBXTextBookmark */;
+			C545D76E159F209A00A9DB36 /* PBXTextBookmark */ = C545D76E159F209A00A9DB36 /* PBXTextBookmark */;
+			C545D76F159F209A00A9DB36 /* PBXTextBookmark */ = C545D76F159F209A00A9DB36 /* PBXTextBookmark */;
+			C545D770159F209A00A9DB36 /* PBXTextBookmark */ = C545D770159F209A00A9DB36 /* PBXTextBookmark */;
+			C5E9B8D9159B04E7002C34F9 /* PBXTextBookmark */ = C5E9B8D9159B04E7002C34F9 /* PBXTextBookmark */;
+			C5E9B8DA159B04E7002C34F9 /* PBXTextBookmark */ = C5E9B8DA159B04E7002C34F9 /* PBXTextBookmark */;
+			C5E9B8DB159B04E7002C34F9 /* PBXTextBookmark */ = C5E9B8DB159B04E7002C34F9 /* PBXTextBookmark */;
+			C5E9B8DC159B04E7002C34F9 /* PBXTextBookmark */ = C5E9B8DC159B04E7002C34F9 /* PBXTextBookmark */;
+			C5E9B928159B1317002C34F9 /* PBXTextBookmark */ = C5E9B928159B1317002C34F9 /* PBXTextBookmark */;
+			C5E9BA9E159B3A8E002C34F9 /* PBXTextBookmark */ = C5E9BA9E159B3A8E002C34F9 /* PBXTextBookmark */;
+			C5E9BAA0159B3A8E002C34F9 /* PBXTextBookmark */ = C5E9BAA0159B3A8E002C34F9 /* PBXTextBookmark */;
+			C5E9BAD0159B3FA0002C34F9 /* PBXTextBookmark */ = C5E9BAD0159B3FA0002C34F9 /* PBXTextBookmark */;
+			C5E9BC72159C4CF8002C34F9 /* PBXTextBookmark */ = C5E9BC72159C4CF8002C34F9 /* PBXTextBookmark */;
+			C5E9BC73159C4CF8002C34F9 /* PBXTextBookmark */ = C5E9BC73159C4CF8002C34F9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C5E9B7FC159AE807002C34F9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C545D5BC159C93DF00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* VimeoReaderAppDelegate.m */;
+		name = "VimeoReaderAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 1818;
+		vrLoc = 162;
+	};
+	C545D5D1159C961400A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BB14159B5DD8002C34F9 /* GTMOAuthSignIn.m */;
+		name = "GTMOAuthSignIn.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 0;
+	};
+	C545D5D2159C961400A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BB13159B5DD8002C34F9 /* GTMOAuthSignIn.h */;
+		name = "GTMOAuthSignIn.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1637;
+		vrLoc = 3817;
+	};
+	C545D5D3159C961400A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BB11159B5DD8002C34F9 /* GTMOAuthAuthentication.h */;
+		name = "GTMOAuthAuthentication.h: 143";
+		rLen = 11;
+		rLoc = 5740;
+		rType = 0;
+		vrLen = 1915;
+		vrLoc = 4295;
+	};
+	C545D601159C9BE700A9DB36 /* VimeoHelper.m:43 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		functionName = "-authenticateUserWithCallbackObject:andSelector:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 43;
+		location = VimeoReader;
+		modificationTime = 362594706.9353;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C545D605159C9BEE00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BB16159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.m */;
+		name = "GTMOAuthViewControllerTouch.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1371;
+		vrLoc = 0;
+	};
+	C545D606159C9BEE00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BB15159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.h */;
+		name = "GTMOAuthViewControllerTouch.h: 53";
+		rLen = 16;
+		rLoc = 2346;
+		rType = 0;
+		vrLen = 1609;
+		vrLoc = 1229;
+	};
+	C545D615159C9C6900A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B86C159AFB35002C34F9 /* VimeoHelper.h */;
+		name = "VimeoHelper.h: 20";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 0;
+	};
+	C545D642159CAAF300A9DB36 /* VimeoHelper.m:66 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 66;
+		location = VimeoReader;
+		modificationTime = 362594710.178627;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C545D644159CAAFF00A9DB36 /* VimeoHelper.m:79 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 79;
+		location = VimeoReader;
+		modificationTime = 362594712.500739;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C545D665159CB50800A9DB36 /* VimeoHelper.m:99 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		functionName = "-connectionDidFinishLoading:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 99;
+		location = VimeoReader;
+		modificationTime = 362594715.945356;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C545D6B6159CE72100A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* VimeoReaderViewController.h */;
+		name = "VimeoReaderViewController.h: 18";
+		rLen = 11;
+		rLoc = 376;
+		rType = 0;
+		vrLen = 1167;
+		vrLoc = 101;
+	};
+	C545D6B7159CE72100A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* VimeoReaderViewController.m */;
+		name = "VimeoReaderViewController.m: 123";
+		rLen = 0;
+		rLoc = 3172;
+		rType = 0;
+		vrLen = 1625;
+		vrLoc = 2276;
+	};
+	C545D76B159F209A00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BB0F159B5DD8002C34F9 /* GTMHTTPFetcher.h */;
+		name = "GTMHTTPFetcher.h: 36";
+		rLen = 0;
+		rLoc = 1384;
+		rType = 0;
+		vrLen = 1936;
+		vrLoc = 625;
+	};
+	C545D76C159F209A00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B84E159AF6E5002C34F9 /* VideoList.m */;
+		name = "VideoList.m: 7";
+		rLen = 0;
+		rLoc = 147;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	C545D76D159F209A00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		name = "VimeoHelper.m: 25";
+		rLen = 0;
+		rLoc = 714;
+		rType = 0;
+		vrLen = 1330;
+		vrLoc = 175;
+	};
+	C545D76E159F209A00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		name = "VimeoHelper.m: 108";
+		rLen = 0;
+		rLoc = 3265;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 2491;
+	};
+	C545D76F159F209A00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		name = "VimeoHelper.m: 24";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 1402;
+		vrLoc = 237;
+	};
+	C545D770159F209A00A9DB36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B84E159AF6E5002C34F9 /* VideoList.m */;
+		name = "VideoList.m: 144";
+		rLen = 60;
+		rLoc = 4274;
+		rType = 0;
+		vrLen = 1319;
+		vrLoc = 3407;
+	};
+	C5E9B7F0159AE7F2002C34F9 /* VimeoReader */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = VimeoReader;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	C5E9B7FC159AE807002C34F9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C5E9B7FD159AE807002C34F9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C5E9B82D159AEA25002C34F9 /* JSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 663}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{977, 1320}";
+		};
+	};
+	C5E9B832159AEA25002C34F9 /* SBJSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 949}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1366, 887}";
+		};
+	};
+	C5E9B834159AEA25002C34F9 /* SBJsonBase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 1170}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1645, 712}";
+		};
+	};
+	C5E9B835159AEA25002C34F9 /* SBJsonBase.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 1027}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1658, 915}";
+		};
+	};
+	C5E9B84D159AF6E5002C34F9 /* VideoList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 581}}";
+			sepNavSelRange = "{241, 13}";
+			sepNavVisRange = "{0, 324}";
+		};
+	};
+	C5E9B84E159AF6E5002C34F9 /* VideoList.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2119}}";
+			sepNavSelRange = "{4274, 60}";
+			sepNavVisRange = "{3407, 1319}";
+			sepNavWindowFrame = "{{15, 78}, {1230, 695}}";
+		};
+	};
+	C5E9B86C159AFB35002C34F9 /* VimeoHelper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 556}}";
+			sepNavSelRange = "{412, 0}";
+			sepNavVisRange = "{0, 726}";
+			sepNavWindowFrame = "{{15, 78}, {1230, 695}}";
+		};
+	};
+	C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1937}}";
+			sepNavSelRange = "{713, 0}";
+			sepNavVisRange = "{237, 1402}";
+			sepNavWindowFrame = "{{15, 78}, {1230, 695}}";
+		};
+	};
+	C5E9B8D9159B04E7002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B82D159AEA25002C34F9 /* JSON.h */;
+		name = "JSON.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1320;
+		vrLoc = 977;
+	};
+	C5E9B8DA159B04E7002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B832159AEA25002C34F9 /* SBJSON.h */;
+		name = "SBJSON.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 887;
+		vrLoc = 1366;
+	};
+	C5E9B8DB159B04E7002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B834159AEA25002C34F9 /* SBJsonBase.h */;
+		name = "SBJsonBase.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 1645;
+	};
+	C5E9B8DC159B04E7002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B835159AEA25002C34F9 /* SBJsonBase.m */;
+		name = "SBJsonBase.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 915;
+		vrLoc = 1658;
+	};
+	C5E9B928159B1317002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* VimeoReaderAppDelegate.h */;
+		name = "VimeoReaderAppDelegate.h: 11";
+		rLen = 25;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 0;
+	};
+	C5E9B98A159B1F62002C34F9 /* VimeoReaderViewController.m:64 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* VimeoReaderViewController.m */;
+		functionName = "-videoButtonPressed:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 64;
+		location = VimeoReader;
+		modificationTime = 362594741.090939;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C5E9B995159B1F9D002C34F9 /* VideoList.m:23 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B84E159AF6E5002C34F9 /* VideoList.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 23;
+		location = VimeoReader;
+		modificationTime = 362594745.763896;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C5E9B9A1159B2007002C34F9 /* VideoList.m:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B84E159AF6E5002C34F9 /* VideoList.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 89;
+		location = VimeoReader;
+		modificationTime = 362594749.800811;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C5E9B9CE159B20C2002C34F9 /* VideoList.m:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B84E159AF6E5002C34F9 /* VideoList.m */;
+		functionName = "-numberOfSectionsInTableView:";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 67;
+		location = VimeoReader;
+		modificationTime = 362594747.506228;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C5E9B9D0159B20C5002C34F9 /* VideoList.m:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C5E9B84E159AF6E5002C34F9 /* VideoList.m */;
+		functionName = "-tableView:numberOfRowsInSection:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 73;
+		location = VimeoReader;
+		modificationTime = 362594748.192756;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	C5E9BA65159B3520002C34F9 /* SAPInFixVideo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 581}}";
+			sepNavSelRange = "{258, 0}";
+			sepNavVisRange = "{0, 350}";
+		};
+	};
+	C5E9BA66159B3520002C34F9 /* SAPInFixVideo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1307, 949}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{157, 1242}";
+		};
+	};
+	C5E9BA9E159B3A8E002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B84D159AF6E5002C34F9 /* VideoList.h */;
+		name = "VideoList.h: 14";
+		rLen = 13;
+		rLoc = 241;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	C5E9BAA0159B3A8E002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BA65159B3520002C34F9 /* SAPInFixVideo.h */;
+		name = "SAPInFixVideo.h: 17";
+		rLen = 0;
+		rLoc = 258;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	C5E9BAD0159B3FA0002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9BA66159B3520002C34F9 /* SAPInFixVideo.m */;
+		name = "SAPInFixVideo.m: 15";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 1242;
+		vrLoc = 157;
+	};
+	C5E9BB0F159B5DD8002C34F9 /* GTMHTTPFetcher.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 9204}}";
+			sepNavSelRange = "{1384, 0}";
+			sepNavVisRange = "{625, 1936}";
+		};
+	};
+	C5E9BB11159B5DD8002C34F9 /* GTMOAuthAuthentication.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 3029}}";
+			sepNavSelRange = "{5740, 11}";
+			sepNavVisRange = "{4295, 1915}";
+		};
+	};
+	C5E9BB13159B5DD8002C34F9 /* GTMOAuthSignIn.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 2041}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3817, 1637}";
+		};
+	};
+	C5E9BB14159B5DD8002C34F9 /* GTMOAuthSignIn.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 7839}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1717}";
+		};
+	};
+	C5E9BB15159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1202, 4121}}";
+			sepNavSelRange = "{2070, 0}";
+			sepNavVisRange = "{2061, 453}";
+		};
+	};
+	C5E9BB16159B5DD8002C34F9 /* GTMOAuthViewControllerTouch.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {820, 11401}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1371}";
+		};
+	};
+	C5E9BBFD159C4961002C34F9 /* VimeoReaderViewController.m:108 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* VimeoReaderViewController.m */;
+		functionName = "-authForVimeo";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 108;
+		location = VimeoReader;
+		modificationTime = 362594643.305976;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	C5E9BC72159C4CF8002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B86D159AFB35002C34F9 /* VimeoHelper.m */;
+		name = "VimeoHelper.m: 19";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 317;
+	};
+	C5E9BC73159C4CF8002C34F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5E9B84E159AF6E5002C34F9 /* VideoList.m */;
+		name = "VideoList.m: 145";
+		rLen = 60;
+		rLoc = 4274;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 3481;
+	};
+}

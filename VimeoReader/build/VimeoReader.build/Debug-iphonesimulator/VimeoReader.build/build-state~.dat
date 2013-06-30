@@ -1,0 +1,764 @@
+TVimeoReader
+v7
+r0
+t362595354.897012
+cCheck dependencies
+cProcessInfoPlistFile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/Info.plist" VimeoReader-Info.plist
+cCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/MainWindow.xib"
+cCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReaderViewController.xib"
+cCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.xib"
+cCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.xib"
+cCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewTouch.xib"
+cProcessPCH /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch.gch VimeoReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/main.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderAppDelegate.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderViewController.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSObject+SBJSON.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSString+SBJSON.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJSON.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonBase.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonParser.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonWriter.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VideoList.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoHelper.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SAPInFixVideo.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMHTTPFetcher.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthAuthentication.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthSignIn.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthViewControllerTouch.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader" normal i386
+cGenerateDSYMFile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app.dSYM" "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader"
+cTouch "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h
+c000000004CC121DF00000000000004F5
+t1287725535
+s1269
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CC121E20000000000088320
+t1287725538
+s557856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC121E80000000000001A58
+t1287725544
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004A11E8210000000000000DE2
+t1242687521
+s3554
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/JSON.h
+c000000004FCF6B4900000000000008F9
+t1338993481
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.h
+c000000004FCF6B490000000000000A01
+t1338993481
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.m
+c000000004FCF6B4900000000000008B9
+t1338993481
+s2233
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.h
+c000000004FCF6B490000000000000916
+t1338993481
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.m
+c000000004FCF6B49000000000000089F
+t1338993481
+s2207
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.h
+c000000004FCF6B490000000000000AED
+t1338993481
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.m
+c000000004FCF6B490000000000001ABC
+t1338993481
+s6844
+i"SBJSON.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.h
+c000000004FCF6B490000000000000B82
+t1338993481
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.m
+c000000004FCF6B490000000000000AC1
+t1338993481
+s2753
+i"SBJsonBase.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.h
+c000000004FCF6B490000000000000C0B
+t1338993481
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.m
+c000000004FCF6B4900000000000036CF
+t1338993481
+s14031
+i"SBJsonParser.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.h
+c000000004FCF6B490000000000001140
+t1338993481
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.m
+c000000004FCF6B490000000000001E83
+t1338993481
+s7811
+i"SBJsonWriter.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.h
+c000000004FEB01BE000000000000015E
+t1340801470
+s350
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.m
+c000000004FEB045F0000000000000716
+t1340802143
+s1814
+i"SAPInFixVideo.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.xib
+c000000004FEAFDE10000000000004427
+t1340800481
+s17447
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.h
+c000000004FEAE6480000000000000144
+t1340794440
+s324
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.m
+c000000004FEC8AB00000000000001361
+t1340902064
+s4961
+i"VideoList.h"
+i"SAPInFixVideo.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.xib
+c000000004FEABF650000000000001C66
+t1340784485
+s7270
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.h
+c000000004FEC5A0A00000000000002D6
+t1340889610
+s726
+i<Foundation/Foundation.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.m
+c000000004FEC8B990000000000000FF7
+t1340902297
+s4087
+i"VimeoHelper.h"
+i"JSON/JSON.h"
+i"GTMOAuthViewControllerTouch.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.h
+c000000004FEAB10C000000000000027E
+t1340780812
+s638
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.m
+c000000004FEAB2270000000000000C06
+t1340781095
+s3078
+i"VimeoReaderAppDelegate.h"
+i"VimeoReaderViewController.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.h
+c000000004FEC613D00000000000004F5
+t1340891453
+s1269
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.m
+c000000004FEC8C8B0000000000001CC6
+t1340902539
+s7366
+i"VimeoReaderViewController.h"
+i"VimeoHelper.h"
+i"VideoList.h"
+i"GTMOAuthViewControllerTouch.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/MainWindow.xib
+c000000004FEAB0720000000000004E59
+t1340780658
+s20057
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.h
+c000000004FE895D90000000000006BC4
+t1340642777
+s27588
+i<Foundation/Foundation.h>
+i"GTLDefines.h"
+i"GDataDefines.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.m
+c000000004FE895D9000000000000DEE8
+t1340642777
+s57064
+i"GTMHTTPFetcher.h"
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.h
+c000000004FE895D4000000000000250B
+t1340642772
+s9483
+i<Foundation/Foundation.h>
+i"GTLDefines.h"
+i"GTMHTTPFetcher.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.m
+c000000004FE895D40000000000009F66
+t1340642772
+s40806
+i<CommonCrypto/CommonHMAC.h>
+i<openssl/sha.h>
+i<openssl/pem.h>
+i<openssl/err.h>
+i"GTMOAuthAuthentication.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.h
+c000000004FE895D4000000000000154E
+t1340642772
+s5454
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"GTLDefines.h"
+i"GTMOAuthAuthentication.h"
+i"GTMHTTPFetcher.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.m
+c000000004FE895D400000000000052B0
+t1340642772
+s21168
+i"GTMOAuthSignIn.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.h
+c000000004FE895D40000000000002E74
+t1340642772
+s11892
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"GTMOAuthAuthentication.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.m
+c000000004FE895D40000000000007B01
+t1340642772
+s31489
+i<Foundation/Foundation.h>
+i<Security/Security.h>
+i"GTMOAuthViewControllerTouch.h"
+i"GTMOAuthSignIn.h"
+i"GTMOAuthAuthentication.h"
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewTouch.xib
+c000000004FE895D4000000000000793F
+t1340642772
+s31039
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReaderViewController.xib
+c000000004FEB22C60000000000005DE9
+t1340809926
+s24041
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReader_Prefix.pch
+c000000004FEAB07200000000000000BF
+t1340780658
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app
+t1340902554
+s340
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app.dSYM
+t1340902554
+s102
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/GTMOAuthViewTouch.nib
+t1340902551
+s2402
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/Info.plist
+t1340902550
+s607
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/MainWindow.nib
+t1340902550
+s1131
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/PkgInfo
+t1340902550
+s8
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/SAPInFixVideo.nib
+t1340902551
+s905
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VideoList.nib
+t1340902551
+s979
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader
+t1340902554
+s264092
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReaderViewController.nib
+t1340902551
+s1788
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMHTTPFetcher.o
+t1340902554
+s150528
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthAuthentication.o
+t1340902554
+s114736
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthSignIn.o
+t1340902554
+s58100
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthViewControllerTouch.o
+t1340902554
+s119252
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSObject+SBJSON.o
+t1340902553
+s8572
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSString+SBJSON.o
+t1340902553
+s8492
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SAPInFixVideo.o
+t1340902554
+s42432
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJSON.o
+t1340902553
+s20132
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonBase.o
+t1340902553
+s13264
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonParser.o
+t1340902553
+s35956
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonWriter.o
+t1340902553
+s24908
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VideoList.o
+t1340902554
+s48780
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoHelper.o
+t1340902554
+s23404
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReader.LinkFileList
+c000000004FEC8C960000000000000A27
+t1340902550
+s2599
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderAppDelegate.o
+t1340902553
+s56352
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderViewController.o
+t1340902553
+s62880
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/main.o
+t1340902553
+s6348
+
+N/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/main.m
+c000000004FEAB0720000000000000175
+t1340780658
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch.gch
+t1340902553
+s15453392
+
+NVimeoReader-Info.plist
+c000000004FEAB072000000000000038D
+t1340780658
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies362595350#362595350#0(0"0(0#1#0"8626313152#0"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMHTTPFetcher.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595354.086921
+e362595354.514461
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMHTTPFetcher.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.m362595354#362595354#0(0"0(0#0#86"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.m8625833184#2287"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMHTTPFetcher.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMHTTPFetcher.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthAuthentication.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595354.156404
+e362595354.487952
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthAuthentication.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.m362595354#362595354#0(0"0(0#0#94"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.m8630338336#2303"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthAuthentication.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthAuthentication.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthSignIn.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595354.488052
+e362595354.708070
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthSignIn.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.m362595354#362595354#0(0"0(0#0#86"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.m8630276320#2287"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthSignIn.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthSignIn.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthViewControllerTouch.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595354.514564
+e362595354.772486
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthViewControllerTouch.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.m362595354#362595354#0(0"0(0#0#99"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.m8628122240#2313"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewControllerTouch.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/GTMOAuthViewControllerTouch.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSObject+SBJSON.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.490144
+e362595353.653414
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.m362595353#362595353#0(0"0(0#0#91"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.m8629869440#2293"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSObject+SBJSON.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSObject+SBJSON.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSString+SBJSON.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.600530
+e362595353.688176
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.m362595353#362595353#0(0"0(0#0#91"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.m8630159232#2293"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/NSString+SBJSON.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/NSString+SBJSON.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SAPInFixVideo.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595354.026568
+e362595354.156303
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SAPInFixVideo.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.m362595354#362595354#0(0"0(0#0#84"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.m8626687648#2284"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SAPInFixVideo.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJSON.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.653521
+e362595353.800065
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJSON.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.m362595353#362595353#0(0"0(0#0#82"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.m8627078240#2275"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJSON.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJSON.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonBase.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.688278
+e362595353.780700
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonBase.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.m362595353#362595353#0(0"0(0#0#86"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.m8609267552#2283"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonBase.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonBase.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonParser.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.780807
+e362595353.977723
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonParser.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.m362595353#362595354#0(0"0(0#0#88"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.m8628050400#2287"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonParser.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonParser.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonWriter.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.800177
+e362595353.914965
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.m362595353#362595354#0(0"0(0#0#88"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.m8627100864#2287"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/JSON/SBJsonWriter.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/SBJsonWriter.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VideoList.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.915065
+e362595354.026465
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VideoList.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.m362595353#362595354#0(0"0(0#0#80"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.m8627649120#2276"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VideoList.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoHelper.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.977839
+e362595354.086818
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoHelper.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.m362595353#362595354#0(0"0(0#0#82"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.m8613496736#2280"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoHelper.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoHelper.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderAppDelegate.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.375138
+e362595353.489976
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderAppDelegate.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.m362595353#362595353#0(0"0(0#0#93"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.m8626363104#2302"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderAppDelegate.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderAppDelegate.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderViewController.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.448169
+e362595353.600386
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderViewController.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.m362595353#362595353#0(0"0(0#0#96"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.m8608335008#2308"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VimeoReaderViewController.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReaderViewController.o"0#
+
+CCompileC build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/main.o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595353.374064
+e362595353.448060
+r1
+xCompileC
+xbuild/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/main.o
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/main.m362595353#362595353#0(0"0(0#0#67"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/main.m8631330336#2258"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/main.m" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.xib"
+s362595351.083819
+e362595351.643331
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.xib
+lSLF07#2@36"CompileXIB Classes/SAPInFixVideo.xib362595351#362595351#0(0"0(0#0#86"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.xib8630387040#660"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/SAPInFixVideo.nib" "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/SAPInFixVideo.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.xib"
+s362595350.998978
+e362595351.432667
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.xib
+lSLF07#2@32"CompileXIB Classes/VideoList.xib362595350#362595351#0(0"0(0#0#82"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.xib8631405184#652"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VideoList.nib" "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/Classes/VideoList.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/MainWindow.xib"
+s362595350.211718
+e362595350.998882
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib362595350#362595350#0(0"0(0#0#75"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/MainWindow.xib8631110112#646"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/MainWindow.nib" "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewTouch.xib"
+s362595351.432764
+e362595352.040649
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewTouch.xib
+lSLF07#2@41"CompileXIB OAuthLib/GTMOAuthViewTouch.xib362595351#362595352#0(0"0(0#0#91"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewTouch.xib8630056096#669"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/GTMOAuthViewTouch.nib" "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/OAuthLib/GTMOAuthViewTouch.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReaderViewController.xib"
+s362595350.212800
+e362595351.083727
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReaderViewController.xib
+lSLF07#2@40"CompileXIB VimeoReaderViewController.xib362595350#362595351#0(0"0(0#0#90"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReaderViewController.xib8630926528#676"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReaderViewController.nib" "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReaderViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app.dSYM" "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader"
+s362595354.849911
+e362595354.893434
+r1
+xGenerateDSYMFile
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app.dSYM
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/VimeoReader.app.dSYM build/Debug-iphonesimulator/VimeoReader.app/VimeoReader362595354#362595354#0(0"0(0#0#116"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader8625825888#467"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader" -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app.dSYM"0#
+
+CLd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader" normal i386
+s362595354.772577
+e362595354.849807
+r1
+xLd
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader
+xnormal
+xi386
+lSLF07#2@121"Link /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader362595354#362595354#0(0"0(0#0#0"8628129600#1097"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" -filelist "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/Objects-normal/i386/VimeoReader.LinkFileList" -mmacosx-version-min=10.6 -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework Security -framework SystemConfiguration -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/VimeoReader"0#
+
+CProcessInfoPlistFile "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/Info.plist" VimeoReader-Info.plist
+s362595350.186246
+e362595350.211601
+r1
+xProcessInfoPlistFile
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/Info.plist
+xVimeoReader-Info.plist
+lSLF07#2@30"Process VimeoReader-Info.plist362595350#362595350#0(0"0(0#0#83"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReader-Info.plist8630021536#563"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VimeoReader-Info.plist -genpkginfo "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app/Info.plist"0#
+
+CProcessPCH /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch.gch VimeoReader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s362595352.040882
+e362595353.373952
+r1
+xProcessPCH
+x/var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch.gch
+xVimeoReader_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile VimeoReader_Prefix.pch362595352#362595353#0(0"0(0#0#83"/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReader_Prefix.pch8630159808#2122"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-generated-files.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-own-target-headers.hmap" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-all-target-headers.hmap" -iquote "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/VimeoReader-project-headers.hmap" "-F/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/include" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources/i386" "-I/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/VimeoReader.build/Debug-iphonesimulator/VimeoReader.build/DerivedSources" -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/VimeoReader_Prefix.pch" -o /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/VimeoReader_Prefix-egieqkoxbgjuuzblecfyffizyxai/VimeoReader_Prefix.pch.gch0#
+
+CTouch "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app"
+s362595354.893641
+e362595354.896970
+r1
+xTouch
+x/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app
+lSLF07#2@110"Touch /Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app362595354#362595354#0(0"0(0#0#0"8626105280#330"    cd "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/sumanchatterjee/Documents/iPhone Examples/VimeoReader/build/Debug-iphonesimulator/VimeoReader.app"0#
+
