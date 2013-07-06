@@ -1,0 +1,1551 @@
+Tprayer
+v7
+r0
+t318991442.301025
+cCheck dependencies
+cCpResource build/Debug-iphoneos/prayer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Info.plist prayer-Info.plist
+cCompileXIB /Users/sumanchatterjee/Documents/prayer/MainWindow.xib
+cCompileXIB /Users/sumanchatterjee/Documents/prayer/RootViewController.xib
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/DiwaliMain01.png image/DiwaliMain01.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_2.png image/Image_2.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_1.png image/Image_1.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_3.png image/Image_3.png
+cCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.xib
+cCopyPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/musicsetting.plist musicsetting.plist
+cCpResource build/Debug-iphoneos/prayer.app/Aarti01.mp3 songs/Aarti01.mp3
+cCpResource build/Debug-iphoneos/prayer.app/Aarti02.mp3 songs/Aarti02.mp3
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh01.png image/ganesh01.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh02.png image/ganesh02.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh03.png image/ganesh03.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh04.png image/ganesh04.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh05.png image/ganesh05.png
+cCpResource build/Debug-iphoneos/prayer.app/sound.caf songs/sound.caf
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/bell.png image/bell.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/noBell.png image/noBell.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali01.png image/diwali01.png
+cCpResource build/Debug-iphoneos/prayer.app/Diwali01.gif image/Diwali01.gif
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali02.png image/diwali02.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali03.png image/diwali03.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali04.png image/diwali04.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali05.png image/diwali05.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/temple.png image/temple.png
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/youtube.png image/youtube.png
+cCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.xib
+cCopyPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/tampleList.plist tampleList.plist
+cCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.xib
+cCopyPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.plist songinfo.plist
+cCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.xib
+cCpResource build/Debug-iphoneos/prayer.app/flower.gif image/flower.gif
+cCpResource build/Debug-iphoneos/prayer.app/sticks.gif image/sticks.gif
+cCpResource build/Debug-iphoneos/prayer.app/sweets.gif image/sweets.gif
+cCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.xib
+cCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.png image/songinfo.png
+cProcessPCH /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch.gch prayer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch.gch prayer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/main.o /Users/sumanchatterjee/Documents/prayer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayerAppDelegate.o /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/RootViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/musicViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapViewDetails.o /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapPin.o /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/songInfolist.o /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/YouTubeView.o /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/pinDetailView.o /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer normal armv6
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/main.o /Users/sumanchatterjee/Documents/prayer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayerAppDelegate.o /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/RootViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/musicViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapViewDetails.o /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapPin.o /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/songInfolist.o /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/YouTubeView.o /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/pinDetailView.o /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer normal armv7
+cCreateUniversalBinary /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer normal "armv6 armv7"
+cGenerateDSYMFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app.dSYM /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer
+cProcessProductPackaging "/Users/sumanchatterjee/Library/MobileDevice/Provisioning Profiles/9B261C0A-E1A6-4C13-B930-672ECB9C0FF6.mobileprovision" /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/embedded.mobileprovision
+cTouch /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent
+cCodeSign /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC11C240000000000000733
+t1287724068
+s1843
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC11D4800000000000002FE
+t1287724360
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC11D62000000000029CFA0
+t1287724386
+s2740128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.h
+c000000004D3C84BF0000000000000153
+t1295811775
+s339
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m
+c000000004D5302850000000000002230
+t1297285765
+s8752
+i"RootViewController.h"
+i"musicViewController.h"
+i"mapViewDetails.h"
+i"songInfolist.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.h
+c000000004D449C5800000000000001B8
+t1296342104
+s440
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m
+c000000004D449C460000000000000A0D
+t1296342086
+s2573
+i"YouTubeView.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.xib
+c000000004D4494190000000000004784
+t1296339993
+s18308
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/mapPin.h
+c000000004D4DC3560000000000000332
+t1296941910
+s818
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m
+c000000004D4DC34F0000000000000358
+t1296941903
+s856
+i"mapPin.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.h
+c000000004D50595B00000000000002F3
+t1297111387
+s755
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m
+c000000004D51C8F80000000000001709
+t1297205496
+s5897
+i"mapViewDetails.h"
+i"mapPin.h"
+i"pinDetailView.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.xib
+c000000004D42D2E00000000000004613
+t1296224992
+s17939
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.h
+c000000004D45172E0000000000000A74
+t1296373550
+s2676
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m
+c000000004D4522B40000000000005F05
+t1296376500
+s24325
+i"musicViewController.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.xib
+c000000004D40978A0000000000006468
+t1296078730
+s25704
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.h
+c000000004D5057F200000000000004E0
+t1297111026
+s1248
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m
+c000000004D507CAE0000000000000ABF
+t1297120430
+s2751
+i"pinDetailView.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.xib
+c000000004D5303BE0000000000007697
+t1297286078
+s30359
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.h
+c000000004D3C812D00000000000001D8
+t1295810861
+s472
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m
+c000000004D3C812D0000000000000AAB
+t1295810861
+s2731
+i"prayerAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.h
+c000000004D445BED0000000000000160
+t1296325613
+s352
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m
+c000000004D51B1A7000000000000128B
+t1297199527
+s4747
+i"songInfolist.h"
+i"YouTubeView.h"
+
+N/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.xib
+c000000004D51AE450000000000004628
+t1297198661
+s17960
+
+N/Users/sumanchatterjee/Documents/prayer/MainWindow.xib
+c000000004D42BBC900000000000066CD
+t1296219081
+s26317
+
+N/Users/sumanchatterjee/Documents/prayer/RootViewController.xib
+c000000004D5303030000000000004679
+t1297285891
+s18041
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app
+t1297298642
+s1530
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app.dSYM
+t1297298641
+s102
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Aarti01.mp3
+t1297298629
+s3778560
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Aarti02.mp3
+t1297298629
+s2133263
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Aarti03.mp3
+t1296115519
+s2133263
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Diwali01.gif
+t1297298630
+s3142
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/DiwaliMain01.png
+t1297298629
+s213063
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_1.png
+t1297298629
+s7658
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_2.png
+t1297298629
+s7741
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_3.gif
+t1295900976
+s6937
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_3.png
+t1297298629
+s5463
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Info.plist
+t1297298628
+s777
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/MainWindow.nib
+t1297298629
+s1613
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/PkgInfo
+t1297298628
+s8
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ResourceRules.plist
+t1297298628
+s485
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/RootViewController.nib
+t1297298629
+s1019
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/YouTubeView.nib
+t1297298635
+s1247
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/bell.png
+t1297298630
+s4302
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali01.png
+t1297298632
+s314729
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali02.png
+t1297298632
+s1639772
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali03.png
+t1297298633
+s596509
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali04.png
+t1297298634
+s881762
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali05.png
+t1297298634
+s481639
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/embedded.mobileprovision
+t1297298641
+s7162
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/flower.gif
+t1297298635
+s6315
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh01.png
+t1297298630
+s563710
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh02.png
+t1297298630
+s524271
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh03.png
+t1297298630
+s1075948
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh04.png
+t1297298630
+s352623
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh05.png
+t1297298630
+s332187
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi01.png
+t1296115527
+s361549
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi02.png
+t1296115527
+s1229414
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi03.png
+t1296115528
+s319273
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi04.png
+t1296115530
+s1140178
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi05.png
+t1296115529
+s514533
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/mapViewDetails.nib
+t1297298634
+s1152
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/musicViewController.nib
+t1297298629
+s1393
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/musicsetting.plist
+t1297298629
+s99
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/noBell.png
+t1297298630
+s4673
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/pinDetailView.nib
+t1297298635
+s2507
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer
+t1297298641
+s201336
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songInfolist.nib
+t1297298634
+s997
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.plist
+t1297298634
+s779
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.png
+t1297298639
+s322563
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/sound.caf
+t1297298630
+s122178
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/sticks.gif
+t1297298635
+s5110
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/sweets.gif
+t1297298635
+s5528
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/tampleList.plist
+t1297298634
+s2828
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/temple.png
+t1297298634
+s2240
+
+N/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/youtube.png
+t1297298634
+s4816
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/RootViewController.o
+t1297298640
+s57228
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/YouTubeView.o
+t1297298641
+s44228
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/main.o
+t1297298640
+s6448
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapPin.o
+t1297298640
+s15412
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapViewDetails.o
+t1297298640
+s59932
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/musicViewController.o
+t1297298641
+s119592
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/pinDetailView.o
+t1297298641
+s56340
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer
+t1297298641
+s99416
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer.LinkFileList
+c000000004D5334C40000000000000459
+t1297298628
+s1113
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayerAppDelegate.o
+t1297298640
+s52156
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/songInfolist.o
+t1297298641
+s45252
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/RootViewController.o
+t1297298641
+s56788
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/YouTubeView.o
+t1297298641
+s43864
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/main.o
+t1297298641
+s6432
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapPin.o
+t1297298641
+s15244
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapViewDetails.o
+t1297298641
+s59156
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/musicViewController.o
+t1297298641
+s117664
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/pinDetailView.o
+t1297298641
+s55956
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer
+t1297298641
+s94840
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer.LinkFileList
+c000000004D5334C40000000000000459
+t1297298628
+s1113
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayerAppDelegate.o
+t1297298641
+s52076
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/songInfolist.o
+t1297298641
+s45072
+
+N/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent
+t1297298642
+s418
+
+N/Users/sumanchatterjee/Documents/prayer/image/Diwali01.gif
+c000000004C7A2A430000000000000C46
+t1283074627
+s3142
+
+N/Users/sumanchatterjee/Documents/prayer/image/DiwaliMain01.png
+c000000004C9682A00000000000027B8A
+t1284932256
+s162698
+
+N/Users/sumanchatterjee/Documents/prayer/image/Image_1.png
+c000000004D3DE0DB00000000000019D1
+t1295900891
+s6609
+
+N/Users/sumanchatterjee/Documents/prayer/image/Image_2.png
+c000000004D3DE2630000000000001E43
+t1295901283
+s7747
+
+N/Users/sumanchatterjee/Documents/prayer/image/Image_3.gif
+c000000004D3C9DDE0000000000001B19
+t1295818206
+s6937
+
+N/Users/sumanchatterjee/Documents/prayer/image/Image_3.png
+c000000004D3C946A0000000000001585
+t1295815786
+s5509
+
+N/Users/sumanchatterjee/Documents/prayer/image/bell.png
+c000000004D4522850000000000001249
+t1296376453
+s4681
+
+N/Users/sumanchatterjee/Documents/prayer/image/diwali01.png
+c000000004D412648000000000004D411
+t1296115272
+s316433
+
+N/Users/sumanchatterjee/Documents/prayer/image/diwali02.png
+c000000004D41265A000000000017438E
+t1296115290
+s1524622
+
+N/Users/sumanchatterjee/Documents/prayer/image/diwali03.png
+c000000004D41266C000000000008CB42
+t1296115308
+s576322
+
+N/Users/sumanchatterjee/Documents/prayer/image/diwali04.png
+c000000004D41268200000000000DA289
+t1296115330
+s893577
+
+N/Users/sumanchatterjee/Documents/prayer/image/diwali05.png
+c000000004D412693000000000006B6DD
+t1296115347
+s440029
+
+N/Users/sumanchatterjee/Documents/prayer/image/flower.gif
+c000000004D451B8700000000000018AB
+t1296374663
+s6315
+
+N/Users/sumanchatterjee/Documents/prayer/image/ganesh01.png
+c000000004D409B870000000000077D68
+t1296079751
+s490856
+
+N/Users/sumanchatterjee/Documents/prayer/image/ganesh02.png
+c000000004D409B3500000000000697D5
+t1296079669
+s432085
+
+N/Users/sumanchatterjee/Documents/prayer/image/ganesh03.png
+c000000004D409B4700000000000E1479
+t1296079687
+s922745
+
+N/Users/sumanchatterjee/Documents/prayer/image/ganesh04.png
+c000000004D409B6C0000000000048078
+t1296079724
+s295032
+
+N/Users/sumanchatterjee/Documents/prayer/image/ganesh05.png
+c000000004D409B7B000000000004635D
+t1296079739
+s287581
+
+N/Users/sumanchatterjee/Documents/prayer/image/lakshmi01.png
+c000000004D4125D4000000000004A521
+t1296115156
+s304417
+
+N/Users/sumanchatterjee/Documents/prayer/image/lakshmi02.png
+c000000004D4125E400000000001020E3
+t1296115172
+s1056995
+
+N/Users/sumanchatterjee/Documents/prayer/image/lakshmi03.png
+c000000004D4125F50000000000042C44
+t1296115189
+s273476
+
+N/Users/sumanchatterjee/Documents/prayer/image/lakshmi04.png
+c000000004D41260400000000001199A1
+t1296115204
+s1153441
+
+N/Users/sumanchatterjee/Documents/prayer/image/lakshmi05.png
+c000000004D412617000000000007098A
+t1296115223
+s461194
+
+N/Users/sumanchatterjee/Documents/prayer/image/noBell.png
+c000000004D41191F000000000000140F
+t1296111903
+s5135
+
+N/Users/sumanchatterjee/Documents/prayer/image/songinfo.png
+c000000004D51AB83000000000005CCDA
+t1297197955
+s380122
+
+N/Users/sumanchatterjee/Documents/prayer/image/sticks.gif
+c000000004D451CBB00000000000013F6
+t1296374971
+s5110
+
+N/Users/sumanchatterjee/Documents/prayer/image/sweets.gif
+c000000004D45224E0000000000001598
+t1296376398
+s5528
+
+N/Users/sumanchatterjee/Documents/prayer/image/temple.png
+c000000004D428FD00000000000000AB3
+t1296207824
+s2739
+
+N/Users/sumanchatterjee/Documents/prayer/image/youtube.png
+c000000004D4291EB0000000000001220
+t1296208363
+s4640
+
+N/Users/sumanchatterjee/Documents/prayer/main.m
+c000000004D3C812D0000000000000170
+t1295810861
+s368
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/prayer/musicsetting.plist
+c000000004D42C2E4000000000000019C
+t1296220900
+s412
+
+N/Users/sumanchatterjee/Documents/prayer/prayer_Prefix.pch
+c000000004D3C812D000000000000013E
+t1295810861
+s318
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sumanchatterjee/Documents/prayer/songinfo.plist
+c000000004D467A320000000000000603
+t1296464434
+s1539
+
+N/Users/sumanchatterjee/Documents/prayer/songs/Aarti01.mp3
+c000000004C703923000000000039A800
+t1282423075
+s3778560
+
+N/Users/sumanchatterjee/Documents/prayer/songs/Aarti02.mp3
+c000000004C72D16E0000000000208D0F
+t1282593134
+s2133263
+
+N/Users/sumanchatterjee/Documents/prayer/songs/Aarti03.mp3
+c000000004C72D16E0000000000208D0F
+t1282593134
+s2133263
+
+N/Users/sumanchatterjee/Documents/prayer/songs/sound.caf
+c000000004C1FCCA0000000000001DD42
+t1277152416
+s122178
+
+N/Users/sumanchatterjee/Documents/prayer/tampleList.plist
+c000000004D53340F0000000000001CB9
+t1297298447
+s7353
+
+N/Users/sumanchatterjee/Library/MobileDevice/Provisioning Profiles/9B261C0A-E1A6-4C13-B930-672ECB9C0FF6.mobileprovision
+c000000004D1CB0210000000000001BFA
+t1293725729
+s7162
+
+N/var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch.gch
+t1297298640
+s10446552
+
+N/var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch.gch
+t1297298640
+s9983704
+
+Nprayer-Info.plist
+c000000004D3C812D000000000000038D
+t1295810861
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318991428#318991428#0(0"0(0#1#0"8653233472#0"0#
+
+CCodeSign /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app
+s318991442.019561
+e318991442.300987
+r1
+xCodeSign
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/prayer.app318991442#318991442#0(0"0(0#0#71"/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app8647097184#651"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Suman Chatterjee (G662EZAKXD)" --resource-rules=/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ResourceRules.plist --entitlements /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/RootViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991440.520456
+e318991440.713010
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/RootViewController.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m318991440#318991440#0(0"0(0#0#68"/Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m8653177184#1751"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/YouTubeView.o /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991441.006591
+e318991441.146591
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/YouTubeView.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m318991441#318991441#0(0"0(0#0#61"/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m8653076352#1737"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/YouTubeView.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/main.o /Users/sumanchatterjee/Documents/prayer/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991440.463945
+e318991440.520350
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/main.o
+x/Users/sumanchatterjee/Documents/prayer/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sumanchatterjee/Documents/prayer/main.m318991440#318991440#0(0"0(0#0#46"/Users/sumanchatterjee/Documents/prayer/main.m8653783648#1715"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/main.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapPin.o /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991440.836198
+e318991440.923387
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapPin.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m318991440#318991440#0(0"0(0#0#56"/Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m8654696320#1727"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapPin.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapViewDetails.o /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991440.713110
+e318991440.836100
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapViewDetails.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m318991440#318991440#0(0"0(0#0#64"/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m8651557632#1743"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/mapViewDetails.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/musicViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991440.553747
+e318991441.008803
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/musicViewController.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m318991440#318991441#0(0"0(0#0#69"/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m8653032768#1753"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/musicViewController.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/pinDetailView.o /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991441.008902
+e318991441.146910
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/pinDetailView.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m318991441#318991441#0(0"0(0#0#63"/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m8652710176#1741"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/pinDetailView.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayerAppDelegate.o /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991440.465155
+e318991440.553641
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayerAppDelegate.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m318991440#318991440#0(0"0(0#0#67"/Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m8653544736#1749"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayerAppDelegate.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/songInfolist.o /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991440.923488
+e318991441.006485
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/songInfolist.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m318991440#318991441#0(0"0(0#0#62"/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m8653387424#1739"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/songInfolist.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/RootViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.235873
+e318991441.463803
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/RootViewController.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m318991441#318991441#0(0"0(0#0#68"/Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m8653403584#1751"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/RootViewController.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/YouTubeView.o /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.721565
+e318991441.806626
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/YouTubeView.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m318991441#318991441#0(0"0(0#0#61"/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m8651915648#1737"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/YouTubeView.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/main.o /Users/sumanchatterjee/Documents/prayer/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.147864
+e318991441.235773
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/main.o
+x/Users/sumanchatterjee/Documents/prayer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/sumanchatterjee/Documents/prayer/main.m318991441#318991441#0(0"0(0#0#46"/Users/sumanchatterjee/Documents/prayer/main.m8651877248#1715"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/main.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapPin.o /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.581202
+e318991441.661365
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapPin.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m318991441#318991441#0(0"0(0#0#56"/Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m8653665600#1727"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/mapPin.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapPin.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapViewDetails.o /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.463962
+e318991441.581103
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapViewDetails.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m318991441#318991441#0(0"0(0#0#64"/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m8654403360#1743"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/mapViewDetails.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/musicViewController.o /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.315337
+e318991441.721459
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/musicViewController.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m318991441#318991441#0(0"0(0#0#69"/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m8653199136#1753"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/musicViewController.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/pinDetailView.o /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.752583
+e318991441.861266
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/pinDetailView.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m318991441#318991441#0(0"0(0#0#63"/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m8640918112#1741"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/pinDetailView.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayerAppDelegate.o /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.221090
+e318991441.315229
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayerAppDelegate.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m318991441#318991441#0(0"0(0#0#67"/Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m8654018368#1749"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/prayerAppDelegate.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayerAppDelegate.o0#
+
+CCompileC build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/songInfolist.o /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991441.661472
+e318991441.752480
+r1
+xCompileC
+xbuild/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/songInfolist.o
+x/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m318991441#318991441#0(0"0(0#0#62"/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m8652437792#1739"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -include /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch -c /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.m -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/songInfolist.o0#
+
+CCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.xib
+s318991434.983898
+e318991435.477784
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.xib
+lSLF07#2@34"CompileXIB Classes/YouTubeView.xib318991434#318991435#0(0"0(0#0#63"/Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.xib8651395456#554"    cd /Users/sumanchatterjee/Documents/prayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/YouTubeView.nib /Users/sumanchatterjee/Documents/prayer/Classes/YouTubeView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.xib
+s318991434.115495
+e318991434.551871
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.xib
+lSLF07#2@37"CompileXIB Classes/mapViewDetails.xib318991434#318991434#0(0"0(0#0#66"/Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.xib8652741952#560"    cd /Users/sumanchatterjee/Documents/prayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/mapViewDetails.nib /Users/sumanchatterjee/Documents/prayer/Classes/mapViewDetails.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.xib
+s318991429.406259
+e318991429.866044
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.xib
+lSLF07#2@42"CompileXIB Classes/musicViewController.xib318991429#318991429#0(0"0(0#0#71"/Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.xib8643933312#570"    cd /Users/sumanchatterjee/Documents/prayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/musicViewController.nib /Users/sumanchatterjee/Documents/prayer/Classes/musicViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.xib
+s318991435.007613
+e318991435.613632
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.xib
+lSLF07#2@36"CompileXIB Classes/pinDetailView.xib318991435#318991435#0(0"0(0#0#65"/Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.xib8623798912#558"    cd /Users/sumanchatterjee/Documents/prayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/pinDetailView.nib /Users/sumanchatterjee/Documents/prayer/Classes/pinDetailView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.xib
+s318991434.575102
+e318991434.973320
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.xib
+lSLF07#2@35"CompileXIB Classes/songInfolist.xib318991434#318991434#0(0"0(0#0#64"/Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.xib8650339200#556"    cd /Users/sumanchatterjee/Documents/prayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songInfolist.nib /Users/sumanchatterjee/Documents/prayer/Classes/songInfolist.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/sumanchatterjee/Documents/prayer/MainWindow.xib
+s318991428.801162
+e318991429.327457
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/prayer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318991428#318991429#0(0"0(0#0#54"/Users/sumanchatterjee/Documents/prayer/MainWindow.xib8652319008#544"    cd /Users/sumanchatterjee/Documents/prayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/MainWindow.nib /Users/sumanchatterjee/Documents/prayer/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/sumanchatterjee/Documents/prayer/RootViewController.xib
+s318991428.801857
+e318991429.274187
+r1
+xCompileXIB
+x/Users/sumanchatterjee/Documents/prayer/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib318991428#318991429#0(0"0(0#0#62"/Users/sumanchatterjee/Documents/prayer/RootViewController.xib8652017376#560"    cd /Users/sumanchatterjee/Documents/prayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/RootViewController.nib /Users/sumanchatterjee/Documents/prayer/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/DiwaliMain01.png image/DiwaliMain01.png
+s318991429.274285
+e318991429.862841
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/DiwaliMain01.png
+ximage/DiwaliMain01.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/prayer.app/DiwaliMain01.png image/DiwaliMain01.png318991429#318991429#0(0"0(0#0#62"/Users/sumanchatterjee/Documents/prayer/image/DiwaliMain01.png8646777312#580"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/DiwaliMain01.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/DiwaliMain01.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_1.png image/Image_1.png
+s318991429.352138
+e318991429.378877
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_1.png
+ximage/Image_1.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/prayer.app/Image_1.png image/Image_1.png318991429#318991429#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/image/Image_1.png8644425088#570"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/Image_1.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_1.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_2.png image/Image_2.png
+s318991429.327549
+e318991429.352044
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_2.png
+ximage/Image_2.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/prayer.app/Image_2.png image/Image_2.png318991429#318991429#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/image/Image_2.png8645964480#570"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/Image_2.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_2.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_3.png image/Image_3.png
+s318991429.378973
+e318991429.406155
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_3.png
+ximage/Image_3.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/prayer.app/Image_3.png image/Image_3.png318991429#318991429#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/image/Image_3.png8637939712#570"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/Image_3.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Image_3.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/bell.png image/bell.png
+s318991430.678202
+e318991430.712202
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/bell.png
+ximage/bell.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/prayer.app/bell.png image/bell.png318991430#318991430#0(0"0(0#0#54"/Users/sumanchatterjee/Documents/prayer/image/bell.png8651840896#564"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/bell.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/bell.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali01.png image/diwali01.png
+s318991430.740661
+e318991432.066585
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali01.png
+ximage/diwali01.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/diwali01.png image/diwali01.png318991430#318991432#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/diwali01.png8651138432#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/diwali01.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali01.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali02.png image/diwali02.png
+s318991430.919788
+e318991432.369189
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali02.png
+ximage/diwali02.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/diwali02.png image/diwali02.png318991430#318991432#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/diwali02.png8653691168#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/diwali02.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali02.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali03.png image/diwali03.png
+s318991432.066743
+e318991433.596170
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali03.png
+ximage/diwali03.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/diwali03.png image/diwali03.png318991432#318991433#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/diwali03.png8652653760#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/diwali03.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali03.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali04.png image/diwali04.png
+s318991432.373734
+e318991434.983799
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali04.png
+ximage/diwali04.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/diwali04.png image/diwali04.png318991432#318991434#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/diwali04.png8652322240#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/diwali04.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali04.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali05.png image/diwali05.png
+s318991433.596363
+e318991434.064565
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali05.png
+ximage/diwali05.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/diwali05.png image/diwali05.png318991433#318991434#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/diwali05.png8654591360#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/diwali05.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/diwali05.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh01.png image/ganesh01.png
+s318991429.877376
+e318991430.528491
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh01.png
+ximage/ganesh01.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/ganesh01.png image/ganesh01.png318991429#318991430#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/ganesh01.png8636764352#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/ganesh01.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh01.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh02.png image/ganesh02.png
+s318991429.921531
+e318991430.210315
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh02.png
+ximage/ganesh02.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/ganesh02.png image/ganesh02.png318991429#318991430#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/ganesh02.png8654539296#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/ganesh02.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh02.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh03.png image/ganesh03.png
+s318991430.210411
+e318991430.635311
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh03.png
+ximage/ganesh03.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/ganesh03.png image/ganesh03.png318991430#318991430#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/ganesh03.png8653408768#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/ganesh03.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh03.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh04.png image/ganesh04.png
+s318991430.528693
+e318991430.677418
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh04.png
+ximage/ganesh04.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/ganesh04.png image/ganesh04.png318991430#318991430#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/ganesh04.png8652810464#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/ganesh04.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh04.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh05.png image/ganesh05.png
+s318991430.635403
+e318991430.918988
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh05.png
+ximage/ganesh05.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/ganesh05.png image/ganesh05.png318991430#318991430#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/ganesh05.png8652338624#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/ganesh05.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ganesh05.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi01.png image/lakshmi01.png
+s317808326.820484
+e317808327.081857
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi01.png
+ximage/lakshmi01.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/prayer.app/lakshmi01.png image/lakshmi01.png317808326#317808327#0(0"0(0#0#59"/Users/sumanchatterjee/Documents/prayer/image/lakshmi01.png8674207776#574"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/lakshmi01.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi01.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi02.png image/lakshmi02.png
+s317808327.081956
+e317808327.895018
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi02.png
+ximage/lakshmi02.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/prayer.app/lakshmi02.png image/lakshmi02.png317808327#317808327#0(0"0(0#0#59"/Users/sumanchatterjee/Documents/prayer/image/lakshmi02.png8706215328#574"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/lakshmi02.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi02.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi03.png image/lakshmi03.png
+s317808327.895211
+e317808328.085830
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi03.png
+ximage/lakshmi03.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/prayer.app/lakshmi03.png image/lakshmi03.png317808327#317808328#0(0"0(0#0#59"/Users/sumanchatterjee/Documents/prayer/image/lakshmi03.png8703176640#574"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/lakshmi03.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi03.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi04.png image/lakshmi04.png
+s317808328.085930
+e317808330.808818
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi04.png
+ximage/lakshmi04.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/prayer.app/lakshmi04.png image/lakshmi04.png317808328#317808330#0(0"0(0#0#59"/Users/sumanchatterjee/Documents/prayer/image/lakshmi04.png8698986304#574"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/lakshmi04.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi04.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi05.png image/lakshmi05.png
+s317808328.435662
+e317808329.294325
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi05.png
+ximage/lakshmi05.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/prayer.app/lakshmi05.png image/lakshmi05.png317808328#317808329#0(0"0(0#0#59"/Users/sumanchatterjee/Documents/prayer/image/lakshmi05.png8696871776#574"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/lakshmi05.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/lakshmi05.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/noBell.png image/noBell.png
+s318991430.712293
+e318991430.740566
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/noBell.png
+ximage/noBell.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/prayer.app/noBell.png image/noBell.png318991430#318991430#0(0"0(0#0#56"/Users/sumanchatterjee/Documents/prayer/image/noBell.png8651513728#568"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/noBell.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/noBell.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.png image/songinfo.png
+s318991435.477977
+e318991439.533975
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.png
+ximage/songinfo.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/prayer.app/songinfo.png image/songinfo.png318991435#318991439#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/songinfo.png8653522336#572"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/songinfo.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/temple.png image/temple.png
+s318991434.064659
+e318991434.087495
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/temple.png
+ximage/temple.png
+opngcrush(9365) malloc: *** error for object 0x104620: incorrect checksum for freed object - object was probably modified after being freed.
+o*** set a breakpoint in malloc_error_break to debug
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/prayer.app/temple.png image/temple.png318991434#318991434#0(192"pngcrush(9365) malloc: *** error for object 0x104620: incorrect checksum for freed object - object was probably modified after being freed.*** set a breakpoint in malloc_error_break to debug0(0#0#56"/Users/sumanchatterjee/Documents/prayer/image/temple.png8653662816#568"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/temple.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/temple.png0#
+
+CCopyPNGFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/youtube.png image/youtube.png
+s318991434.087586
+e318991434.115395
+r1
+xCopyPNGFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/youtube.png
+ximage/youtube.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/prayer.app/youtube.png image/youtube.png318991434#318991434#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/image/youtube.png8653134528#570"    cd /Users/sumanchatterjee/Documents/prayer    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/sumanchatterjee/Documents/prayer/image/youtube.png /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/youtube.png0#
+
+CCopyPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/musicsetting.plist musicsetting.plist
+s318991429.862943
+e318991429.921437
+r1
+xCopyPlistFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/musicsetting.plist
+xmusicsetting.plist
+lSLF07#2@23"Copy musicsetting.plist318991429#318991429#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/musicsetting.plist8652345888#380"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 musicsetting.plist --outdir /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCopyPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.plist songinfo.plist
+s318991434.973420
+e318991434.996485
+r1
+xCopyPlistFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/songinfo.plist
+xsonginfo.plist
+lSLF07#2@19"Copy songinfo.plist318991434#318991435#0(0"0(0#0#54"/Users/sumanchatterjee/Documents/prayer/songinfo.plist8647728480#376"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 songinfo.plist --outdir /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCopyPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/tampleList.plist tampleList.plist
+s318991434.551968
+e318991434.575009
+r1
+xCopyPlistFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/tampleList.plist
+xtampleList.plist
+lSLF07#2@21"Copy tampleList.plist318991434#318991434#0(0"0(0#0#56"/Users/sumanchatterjee/Documents/prayer/tampleList.plist8650962784#378"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 tampleList.plist --outdir /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/Aarti01.mp3 songs/Aarti01.mp3
+s318991429.866139
+e318991429.897471
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/Aarti01.mp3
+xsongs/Aarti01.mp3
+lSLF07#2@22"Copy songs/Aarti01.mp3318991429#318991429#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/songs/Aarti01.mp38648396160#463"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/songs/Aarti01.mp3 /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/Aarti02.mp3 songs/Aarti02.mp3
+s318991429.875178
+e318991429.897018
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/Aarti02.mp3
+xsongs/Aarti02.mp3
+lSLF07#2@22"Copy songs/Aarti02.mp3318991429#318991429#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/songs/Aarti02.mp38646161952#463"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/songs/Aarti02.mp3 /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/Aarti03.mp3 songs/Aarti03.mp3
+s317808319.549451
+e317808319.771382
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/Aarti03.mp3
+xsongs/Aarti03.mp3
+lSLF07#2@22"Copy songs/Aarti03.mp3317808319#317808319#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/songs/Aarti03.mp38668404192#463"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/songs/Aarti03.mp3 /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/Diwali01.gif image/Diwali01.gif
+s318991430.919088
+e318991430.924947
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/Diwali01.gif
+ximage/Diwali01.gif
+lSLF07#2@23"Copy image/Diwali01.gif318991430#318991430#0(0"0(0#0#58"/Users/sumanchatterjee/Documents/prayer/image/Diwali01.gif8654573120#464"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/image/Diwali01.gif /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/Image_3.gif image/Image_3.gif
+s317593776.020155
+e317593776.029254
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/Image_3.gif
+ximage/Image_3.gif
+lSLF07#2@22"Copy image/Image_3.gif317593776#317593776#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/image/Image_3.gif8676345248#463"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/image/Image_3.gif /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s318991428.721492
+e318991428.800744
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist318991428#318991428#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8647964480#495"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/flower.gif image/flower.gif
+s318991434.996578
+e318991435.010926
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/flower.gif
+ximage/flower.gif
+lSLF07#2@21"Copy image/flower.gif318991434#318991435#0(0"0(0#0#56"/Users/sumanchatterjee/Documents/prayer/image/flower.gif8647686464#462"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/image/flower.gif /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/sound.caf songs/sound.caf
+s318991430.677509
+e318991430.683379
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/sound.caf
+xsongs/sound.caf
+lSLF07#2@20"Copy songs/sound.caf318991430#318991430#0(0"0(0#0#55"/Users/sumanchatterjee/Documents/prayer/songs/sound.caf8652232928#461"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/songs/sound.caf /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/sticks.gif image/sticks.gif
+s318991434.997365
+e318991435.011052
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/sticks.gif
+ximage/sticks.gif
+lSLF07#2@21"Copy image/sticks.gif318991434#318991435#0(0"0(0#0#56"/Users/sumanchatterjee/Documents/prayer/image/sticks.gif8646513440#462"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/image/sticks.gif /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCpResource build/Debug-iphoneos/prayer.app/sweets.gif image/sweets.gif
+s318991435.002383
+e318991435.015485
+r1
+xCpResource
+xbuild/Debug-iphoneos/prayer.app/sweets.gif
+ximage/sweets.gif
+lSLF07#2@21"Copy image/sweets.gif318991435#318991435#0(0"0(0#0#56"/Users/sumanchatterjee/Documents/prayer/image/sweets.gif8643791232#462"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/sumanchatterjee/Documents/prayer/image/sweets.gif /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+
+CCreateUniversalBinary /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer normal "armv6 armv7"
+s318991441.914900
+e318991441.918825
+r1
+xCreateUniversalBinary
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/prayer.app/prayer normal "armv6 armv7"318991441#318991441#0(0"0(0#0#51"/Users/sumanchatterjee/Documents/prayer/armv6 armv78643405856#514"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer -output /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer0#
+
+CGenerateDSYMFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app.dSYM /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer
+s318991441.918921
+e318991441.980075
+r1
+xGenerateDSYMFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app.dSYM
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/prayer.app.dSYM build/Debug-iphoneos/prayer.app/prayer318991441#318991441#0(0"0(0#0#78"/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer8643711136#362"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/prayer -o /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app.dSYM0#
+
+CLd /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer normal armv6
+s318991441.146993
+e318991441.220980
+r1
+xLd
+x/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer
+xnormal
+xarmv6
+lSLF07#2@119"Link /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer318991441#318991441#0(0"0(0#0#0"8652166656#970"    cd /Users/sumanchatterjee/Documents/prayer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -filelist /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -framework QuartzCore -framework MapKit -framework CoreLocation -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv6/prayer0#
+
+CLd /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer normal armv7
+s318991441.861355
+e318991441.914796
+r1
+xLd
+x/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer
+xnormal
+xarmv7
+lSLF07#2@119"Link /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer318991441#318991441#0(0"0(0#0#0"8647772544#970"    cd /Users/sumanchatterjee/Documents/prayer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -filelist /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework AudioToolbox -framework QuartzCore -framework MapKit -framework CoreLocation -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/Objects-normal/armv7/prayer0#
+
+CProcessInfoPlistFile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Info.plist prayer-Info.plist
+s318991428.722559
+e318991428.801050
+r1
+xProcessInfoPlistFile
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Info.plist
+xprayer-Info.plist
+lSLF07#2@25"Process prayer-Info.plist318991428#318991428#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/prayer-Info.plist8647702304#562"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility prayer-Info.plist -genpkginfo /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/ResourceRules.plist -o /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/Info.plist0#
+
+CProcessPCH /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch.gch prayer_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s318991439.535045
+e318991440.406605
+r1
+xProcessPCH
+x/var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch.gch
+xprayer_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile prayer_Prefix.pch318991439#318991440#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/prayer_Prefix.pch8653063232#1613"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv7 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -c /Users/sumanchatterjee/Documents/prayer/prayer_Prefix.pch -o /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gaifurlctdxvzucyywsvqjjecxnu/prayer_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch.gch prayer_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s318991439.534162
+e318991440.463828
+r1
+xProcessPCH
+x/var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch.gch
+xprayer_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile prayer_Prefix.pch318991439#318991440#0(0"0(0#0#57"/Users/sumanchatterjee/Documents/prayer/prayer_Prefix.pch8653213120#1613"    cd /Users/sumanchatterjee/Documents/prayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-generated-files.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-own-target-headers.hmap -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-all-target-headers.hmap -iquote /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer-project-headers.hmap -F/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos -I/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/include -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources/armv6 -I/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/DerivedSources -c /Users/sumanchatterjee/Documents/prayer/prayer_Prefix.pch -o /var/folders/LH/LHldvP1EHpOcH6Jv5JLKnE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prayer_Prefix-gzphzpjgiwemglgyumyxqmzfxjqu/prayer_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/sumanchatterjee/Library/MobileDevice/Provisioning Profiles/9B261C0A-E1A6-4C13-B930-672ECB9C0FF6.mobileprovision" /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/embedded.mobileprovision
+s318991441.980179
+e318991441.994644
+r1
+xProcessProductPackaging
+x/Users/sumanchatterjee/Library/MobileDevice/Provisioning Profiles/9B261C0A-E1A6-4C13-B930-672ECB9C0FF6.mobileprovision
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/sumanchatterjee/Library/MobileDevice/Provisioning Profiles/9B261C0A-E1A6-4C13-B930-672ECB9C0FF6.mobileprovision" build/Debug-iphoneos/prayer.app/embedded.mobileprovision318991441#318991441#0(0"0(0#0#96"/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/embedded.mobileprovision8653642976#434"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/sumanchatterjee/Library/MobileDevice/Provisioning Profiles/9B261C0A-E1A6-4C13-B930-672ECB9C0FF6.mobileprovision" -o /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent
+s318991441.999363
+e318991442.019451
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent318991441#318991442#0(0"0(0#0#99"/Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent8647567776#431"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/sumanchatterjee/Documents/prayer/build/prayer.build/Debug-iphoneos/prayer.build/prayer.xcent0#
+
+CTouch /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app
+s318991441.994732
+e318991441.999260
+r1
+xTouch
+x/Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app
+lSLF07#2@77"Touch /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app318991441#318991441#0(0"0(0#0#0"8653136480#265"    cd /Users/sumanchatterjee/Documents/prayer    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sumanchatterjee/Documents/prayer/build/Debug-iphoneos/prayer.app0#
+

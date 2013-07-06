@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* prayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* prayerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		C5128F3112ECBF38009C5607 /* DiwaliMain01.png in Resources */ = {isa = PBXBuildFile; fileRef = C5128F2D12ECBF38009C5607 /* DiwaliMain01.png */; };
+		C5128F3312ECBF38009C5607 /* Image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5128F2F12ECBF38009C5607 /* Image_2.png */; };
+		C512900112ECD670009C5607 /* Image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C512900012ECD670009C5607 /* Image_1.png */; };
+		C512904B12EE1FC0009C5607 /* Image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = C512904A12EE1FC0009C5607 /* Image_3.png */; };
+		C512905A12EE2103009C5607 /* musicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C512905812EE2103009C5607 /* musicViewController.m */; };
+		C512905B12EE2103009C5607 /* musicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C512905912EE2103009C5607 /* musicViewController.xib */; };
+		C512908F12EE321E009C5607 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C512908E12EE321E009C5607 /* AVFoundation.framework */; };
+		C51290A812EE3419009C5607 /* musicsetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = C51290A712EE3419009C5607 /* musicsetting.plist */; };
+		C512912012EEB3A7009C5607 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C512911F12EEB3A7009C5607 /* AudioToolbox.framework */; };
+		C512916F12EEBDC0009C5607 /* Aarti01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C512916C12EEBDC0009C5607 /* Aarti01.mp3 */; };
+		C512917012EEBDC0009C5607 /* Aarti02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C512916D12EEBDC0009C5607 /* Aarti02.mp3 */; };
+		C512925612F0BE76009C5607 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C512925512F0BE76009C5607 /* QuartzCore.framework */; };
+		C51292D212F0D323009C5607 /* ganesh01.png in Resources */ = {isa = PBXBuildFile; fileRef = C51292CD12F0D323009C5607 /* ganesh01.png */; };
+		C51292D312F0D323009C5607 /* ganesh02.png in Resources */ = {isa = PBXBuildFile; fileRef = C51292CE12F0D323009C5607 /* ganesh02.png */; };
+		C51292D412F0D323009C5607 /* ganesh03.png in Resources */ = {isa = PBXBuildFile; fileRef = C51292CF12F0D323009C5607 /* ganesh03.png */; };
+		C51292D512F0D323009C5607 /* ganesh04.png in Resources */ = {isa = PBXBuildFile; fileRef = C51292D012F0D323009C5607 /* ganesh04.png */; };
+		C51292D612F0D323009C5607 /* ganesh05.png in Resources */ = {isa = PBXBuildFile; fileRef = C51292D112F0D323009C5607 /* ganesh05.png */; };
+		C512930B12F0D7BB009C5607 /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = C512930A12F0D7BB009C5607 /* sound.caf */; };
+		C512933512F1503F009C5607 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = C512933312F1503F009C5607 /* bell.png */; };
+		C512933612F1503F009C5607 /* noBell.png in Resources */ = {isa = PBXBuildFile; fileRef = C512933412F1503F009C5607 /* noBell.png */; };
+		C512934312F15E54009C5607 /* diwali01.png in Resources */ = {isa = PBXBuildFile; fileRef = C512933D12F15E54009C5607 /* diwali01.png */; };
+		C512934412F15E54009C5607 /* Diwali01.gif in Resources */ = {isa = PBXBuildFile; fileRef = C512933E12F15E54009C5607 /* Diwali01.gif */; };
+		C512934512F15E54009C5607 /* diwali02.png in Resources */ = {isa = PBXBuildFile; fileRef = C512933F12F15E54009C5607 /* diwali02.png */; };
+		C512934612F15E54009C5607 /* diwali03.png in Resources */ = {isa = PBXBuildFile; fileRef = C512934012F15E54009C5607 /* diwali03.png */; };
+		C512934712F15E54009C5607 /* diwali04.png in Resources */ = {isa = PBXBuildFile; fileRef = C512934112F15E54009C5607 /* diwali04.png */; };
+		C512934812F15E54009C5607 /* diwali05.png in Resources */ = {isa = PBXBuildFile; fileRef = C512934212F15E54009C5607 /* diwali05.png */; };
+		C51293AC12F2C784009C5607 /* temple.png in Resources */ = {isa = PBXBuildFile; fileRef = C51293AB12F2C784009C5607 /* temple.png */; };
+		C51293CC12F2CA62009C5607 /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = C51293CB12F2CA62009C5607 /* youtube.png */; };
+		C512944412F3005D009C5607 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C512944312F3005D009C5607 /* MapKit.framework */; };
+		C512944E12F30095009C5607 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C512944D12F30095009C5607 /* CoreLocation.framework */; };
+		C512945612F300DF009C5607 /* mapViewDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C512945412F300DF009C5607 /* mapViewDetails.m */; };
+		C512945712F300DF009C5607 /* mapViewDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = C512945512F300DF009C5607 /* mapViewDetails.xib */; };
+		C51294F512F30C68009C5607 /* mapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = C51294F412F30C68009C5607 /* mapPin.m */; };
+		C512951A12F30FDD009C5607 /* tampleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C512951912F30FDD009C5607 /* tampleList.plist */; };
+		C51296D712F3F26C009C5607 /* songInfolist.m in Sources */ = {isa = PBXBuildFile; fileRef = C51296D512F3F26C009C5607 /* songInfolist.m */; };
+		C51296D812F3F26C009C5607 /* songInfolist.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51296D612F3F26C009C5607 /* songInfolist.xib */; };
+		C51296DA12F3F287009C5607 /* songinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C51296D912F3F287009C5607 /* songinfo.plist */; };
+		C512977712F4AEAB009C5607 /* YouTubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C512977512F4AEAB009C5607 /* YouTubeView.m */; };
+		C512977812F4AEAB009C5607 /* YouTubeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C512977612F4AEAB009C5607 /* YouTubeView.xib */; };
+		C512992312F55329009C5607 /* flower.gif in Resources */ = {isa = PBXBuildFile; fileRef = C512992212F55329009C5607 /* flower.gif */; };
+		C512992B12F5547B009C5607 /* sticks.gif in Resources */ = {isa = PBXBuildFile; fileRef = C512992A12F5547B009C5607 /* sticks.gif */; };
+		C512992D12F55A46009C5607 /* sweets.gif in Resources */ = {isa = PBXBuildFile; fileRef = C512992C12F55A46009C5607 /* sweets.gif */; };
+		C59AD34412F5A45800CCBF40 /* pinDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59AD34212F5A45800CCBF40 /* pinDetailView.m */; };
+		C59AD34512F5A45800CCBF40 /* pinDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59AD34312F5A45800CCBF40 /* pinDetailView.xib */; };
+		C59AD8B01301E36000CCBF40 /* songinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = C59AD8AF1301E36000CCBF40 /* songinfo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* prayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prayerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* prayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prayerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* prayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* prayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prayer_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* prayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "prayer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C5128F2D12ECBF38009C5607 /* DiwaliMain01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DiwaliMain01.png; path = image/DiwaliMain01.png; sourceTree = "<group>"; };
+		C5128F2F12ECBF38009C5607 /* Image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image_2.png; path = image/Image_2.png; sourceTree = "<group>"; };
+		C512900012ECD670009C5607 /* Image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image_1.png; path = image/Image_1.png; sourceTree = "<group>"; };
+		C512904A12EE1FC0009C5607 /* Image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image_3.png; path = image/Image_3.png; sourceTree = "<group>"; };
+		C512905712EE2103009C5607 /* musicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicViewController.h; sourceTree = "<group>"; };
+		C512905812EE2103009C5607 /* musicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musicViewController.m; sourceTree = "<group>"; };
+		C512905912EE2103009C5607 /* musicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = musicViewController.xib; path = Classes/musicViewController.xib; sourceTree = "<group>"; };
+		C512908E12EE321E009C5607 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C51290A712EE3419009C5607 /* musicsetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = musicsetting.plist; sourceTree = "<group>"; };
+		C512911F12EEB3A7009C5607 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C512916C12EEBDC0009C5607 /* Aarti01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Aarti01.mp3; path = songs/Aarti01.mp3; sourceTree = "<group>"; };
+		C512916D12EEBDC0009C5607 /* Aarti02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Aarti02.mp3; path = songs/Aarti02.mp3; sourceTree = "<group>"; };
+		C512925512F0BE76009C5607 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C51292CD12F0D323009C5607 /* ganesh01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ganesh01.png; path = image/ganesh01.png; sourceTree = "<group>"; };
+		C51292CE12F0D323009C5607 /* ganesh02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ganesh02.png; path = image/ganesh02.png; sourceTree = "<group>"; };
+		C51292CF12F0D323009C5607 /* ganesh03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ganesh03.png; path = image/ganesh03.png; sourceTree = "<group>"; };
+		C51292D012F0D323009C5607 /* ganesh04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ganesh04.png; path = image/ganesh04.png; sourceTree = "<group>"; };
+		C51292D112F0D323009C5607 /* ganesh05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ganesh05.png; path = image/ganesh05.png; sourceTree = "<group>"; };
+		C512930A12F0D7BB009C5607 /* sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound.caf; path = songs/sound.caf; sourceTree = "<group>"; };
+		C512933312F1503F009C5607 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bell.png; path = image/bell.png; sourceTree = "<group>"; };
+		C512933412F1503F009C5607 /* noBell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noBell.png; path = image/noBell.png; sourceTree = "<group>"; };
+		C512933D12F15E54009C5607 /* diwali01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diwali01.png; path = image/diwali01.png; sourceTree = "<group>"; };
+		C512933E12F15E54009C5607 /* Diwali01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Diwali01.gif; path = image/Diwali01.gif; sourceTree = "<group>"; };
+		C512933F12F15E54009C5607 /* diwali02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diwali02.png; path = image/diwali02.png; sourceTree = "<group>"; };
+		C512934012F15E54009C5607 /* diwali03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diwali03.png; path = image/diwali03.png; sourceTree = "<group>"; };
+		C512934112F15E54009C5607 /* diwali04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diwali04.png; path = image/diwali04.png; sourceTree = "<group>"; };
+		C512934212F15E54009C5607 /* diwali05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diwali05.png; path = image/diwali05.png; sourceTree = "<group>"; };
+		C51293AB12F2C784009C5607 /* temple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temple.png; path = image/temple.png; sourceTree = "<group>"; };
+		C51293CB12F2CA62009C5607 /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youtube.png; path = image/youtube.png; sourceTree = "<group>"; };
+		C512944312F3005D009C5607 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C512944D12F30095009C5607 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C512945312F300DF009C5607 /* mapViewDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewDetails.h; sourceTree = "<group>"; };
+		C512945412F300DF009C5607 /* mapViewDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewDetails.m; sourceTree = "<group>"; };
+		C512945512F300DF009C5607 /* mapViewDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = mapViewDetails.xib; path = Classes/mapViewDetails.xib; sourceTree = "<group>"; };
+		C51294F312F30C68009C5607 /* mapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapPin.h; sourceTree = "<group>"; };
+		C51294F412F30C68009C5607 /* mapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapPin.m; sourceTree = "<group>"; };
+		C512951912F30FDD009C5607 /* tampleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tampleList.plist; sourceTree = "<group>"; };
+		C51296D412F3F26C009C5607 /* songInfolist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songInfolist.h; sourceTree = "<group>"; };
+		C51296D512F3F26C009C5607 /* songInfolist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songInfolist.m; sourceTree = "<group>"; };
+		C51296D612F3F26C009C5607 /* songInfolist.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = songInfolist.xib; path = Classes/songInfolist.xib; sourceTree = "<group>"; };
+		C51296D912F3F287009C5607 /* songinfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songinfo.plist; sourceTree = "<group>"; };
+		C512977412F4AEAB009C5607 /* YouTubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeView.h; sourceTree = "<group>"; };
+		C512977512F4AEAB009C5607 /* YouTubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeView.m; sourceTree = "<group>"; };
+		C512977612F4AEAB009C5607 /* YouTubeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = YouTubeView.xib; path = Classes/YouTubeView.xib; sourceTree = "<group>"; };
+		C512992212F55329009C5607 /* flower.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = flower.gif; path = image/flower.gif; sourceTree = "<group>"; };
+		C512992A12F5547B009C5607 /* sticks.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sticks.gif; path = image/sticks.gif; sourceTree = "<group>"; };
+		C512992C12F55A46009C5607 /* sweets.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sweets.gif; path = image/sweets.gif; sourceTree = "<group>"; };
+		C59AD34112F5A45800CCBF40 /* pinDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinDetailView.h; sourceTree = "<group>"; };
+		C59AD34212F5A45800CCBF40 /* pinDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pinDetailView.m; sourceTree = "<group>"; };
+		C59AD34312F5A45800CCBF40 /* pinDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pinDetailView.xib; path = Classes/pinDetailView.xib; sourceTree = "<group>"; };
+		C59AD8AF1301E36000CCBF40 /* songinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = songinfo.png; path = image/songinfo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				C512908F12EE321E009C5607 /* AVFoundation.framework in Frameworks */,
+				C512912012EEB3A7009C5607 /* AudioToolbox.framework in Frameworks */,
+				C512925612F0BE76009C5607 /* QuartzCore.framework in Frameworks */,
+				C512944412F3005D009C5607 /* MapKit.framework in Frameworks */,
+				C512944E12F30095009C5607 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* prayerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* prayerAppDelegate.m */,
+				C512905712EE2103009C5607 /* musicViewController.h */,
+				C512905812EE2103009C5607 /* musicViewController.m */,
+				C512945312F300DF009C5607 /* mapViewDetails.h */,
+				C512945412F300DF009C5607 /* mapViewDetails.m */,
+				C51294F312F30C68009C5607 /* mapPin.h */,
+				C51294F412F30C68009C5607 /* mapPin.m */,
+				C51296D412F3F26C009C5607 /* songInfolist.h */,
+				C51296D512F3F26C009C5607 /* songInfolist.m */,
+				C512977412F4AEAB009C5607 /* YouTubeView.h */,
+				C512977512F4AEAB009C5607 /* YouTubeView.m */,
+				C59AD34112F5A45800CCBF40 /* pinDetailView.h */,
+				C59AD34212F5A45800CCBF40 /* pinDetailView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* prayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* prayer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C59AD8AF1301E36000CCBF40 /* songinfo.png */,
+				C512992C12F55A46009C5607 /* sweets.gif */,
+				C59AD34312F5A45800CCBF40 /* pinDetailView.xib */,
+				C512992A12F5547B009C5607 /* sticks.gif */,
+				C512992212F55329009C5607 /* flower.gif */,
+				C51296D912F3F287009C5607 /* songinfo.plist */,
+				C512977612F4AEAB009C5607 /* YouTubeView.xib */,
+				C512951912F30FDD009C5607 /* tampleList.plist */,
+				C51293CB12F2CA62009C5607 /* youtube.png */,
+				C51293AB12F2C784009C5607 /* temple.png */,
+				C512933D12F15E54009C5607 /* diwali01.png */,
+				C512933E12F15E54009C5607 /* Diwali01.gif */,
+				C51296D612F3F26C009C5607 /* songInfolist.xib */,
+				C512933F12F15E54009C5607 /* diwali02.png */,
+				C512934012F15E54009C5607 /* diwali03.png */,
+				C512934112F15E54009C5607 /* diwali04.png */,
+				C512934212F15E54009C5607 /* diwali05.png */,
+				C512933312F1503F009C5607 /* bell.png */,
+				C512933412F1503F009C5607 /* noBell.png */,
+				C512930A12F0D7BB009C5607 /* sound.caf */,
+				C51292CD12F0D323009C5607 /* ganesh01.png */,
+				C51292CE12F0D323009C5607 /* ganesh02.png */,
+				C51292CF12F0D323009C5607 /* ganesh03.png */,
+				C51292D012F0D323009C5607 /* ganesh04.png */,
+				C51292D112F0D323009C5607 /* ganesh05.png */,
+				C512916C12EEBDC0009C5607 /* Aarti01.mp3 */,
+				C512916D12EEBDC0009C5607 /* Aarti02.mp3 */,
+				C51290A712EE3419009C5607 /* musicsetting.plist */,
+				C512904A12EE1FC0009C5607 /* Image_3.png */,
+				C512900012ECD670009C5607 /* Image_1.png */,
+				C5128F2D12ECBF38009C5607 /* DiwaliMain01.png */,
+				C5128F2F12ECBF38009C5607 /* Image_2.png */,
+				C512945512F300DF009C5607 /* mapViewDetails.xib */,
+				C512905912EE2103009C5607 /* musicViewController.xib */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* prayer-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				C512908E12EE321E009C5607 /* AVFoundation.framework */,
+				C512911F12EEB3A7009C5607 /* AudioToolbox.framework */,
+				C512925512F0BE76009C5607 /* QuartzCore.framework */,
+				C512944312F3005D009C5607 /* MapKit.framework */,
+				C512944D12F30095009C5607 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* prayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "prayer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prayer;
+			productName = prayer;
+			productReference = 1D6058910D05DD3D006BFB54 /* prayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "prayer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* prayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				C5128F3112ECBF38009C5607 /* DiwaliMain01.png in Resources */,
+				C5128F3312ECBF38009C5607 /* Image_2.png in Resources */,
+				C512900112ECD670009C5607 /* Image_1.png in Resources */,
+				C512904B12EE1FC0009C5607 /* Image_3.png in Resources */,
+				C512905B12EE2103009C5607 /* musicViewController.xib in Resources */,
+				C51290A812EE3419009C5607 /* musicsetting.plist in Resources */,
+				C512916F12EEBDC0009C5607 /* Aarti01.mp3 in Resources */,
+				C512917012EEBDC0009C5607 /* Aarti02.mp3 in Resources */,
+				C51292D212F0D323009C5607 /* ganesh01.png in Resources */,
+				C51292D312F0D323009C5607 /* ganesh02.png in Resources */,
+				C51292D412F0D323009C5607 /* ganesh03.png in Resources */,
+				C51292D512F0D323009C5607 /* ganesh04.png in Resources */,
+				C51292D612F0D323009C5607 /* ganesh05.png in Resources */,
+				C512930B12F0D7BB009C5607 /* sound.caf in Resources */,
+				C512933512F1503F009C5607 /* bell.png in Resources */,
+				C512933612F1503F009C5607 /* noBell.png in Resources */,
+				C512934312F15E54009C5607 /* diwali01.png in Resources */,
+				C512934412F15E54009C5607 /* Diwali01.gif in Resources */,
+				C512934512F15E54009C5607 /* diwali02.png in Resources */,
+				C512934612F15E54009C5607 /* diwali03.png in Resources */,
+				C512934712F15E54009C5607 /* diwali04.png in Resources */,
+				C512934812F15E54009C5607 /* diwali05.png in Resources */,
+				C51293AC12F2C784009C5607 /* temple.png in Resources */,
+				C51293CC12F2CA62009C5607 /* youtube.png in Resources */,
+				C512945712F300DF009C5607 /* mapViewDetails.xib in Resources */,
+				C512951A12F30FDD009C5607 /* tampleList.plist in Resources */,
+				C51296D812F3F26C009C5607 /* songInfolist.xib in Resources */,
+				C51296DA12F3F287009C5607 /* songinfo.plist in Resources */,
+				C512977812F4AEAB009C5607 /* YouTubeView.xib in Resources */,
+				C512992312F55329009C5607 /* flower.gif in Resources */,
+				C512992B12F5547B009C5607 /* sticks.gif in Resources */,
+				C512992D12F55A46009C5607 /* sweets.gif in Resources */,
+				C59AD34512F5A45800CCBF40 /* pinDetailView.xib in Resources */,
+				C59AD8B01301E36000CCBF40 /* songinfo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* prayerAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				C512905A12EE2103009C5607 /* musicViewController.m in Sources */,
+				C512945612F300DF009C5607 /* mapViewDetails.m in Sources */,
+				C51294F512F30C68009C5607 /* mapPin.m in Sources */,
+				C51296D712F3F26C009C5607 /* songInfolist.m in Sources */,
+				C512977712F4AEAB009C5607 /* YouTubeView.m in Sources */,
+				C59AD34412F5A45800CCBF40 /* pinDetailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prayer_Prefix.pch;
+				INFOPLIST_FILE = "prayer-Info.plist";
+				PRODUCT_NAME = prayer;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prayer_Prefix.pch;
+				INFOPLIST_FILE = "prayer-Info.plist";
+				PRODUCT_NAME = prayer;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "prayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "prayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

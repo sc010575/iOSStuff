@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Durga Chalisa</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=bwPdADAHWtE</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Gayatri Mantra</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=nDnamSM3Z3s&amp;feature=related</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>hanuman chalisa</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=fKKSurfd6Ys&amp;feature=related</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lord Shiva Aarti</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=G0_tFX-pG-A&amp;feature=related</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Om jai jagadish hara</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=3BPHl_120gw&amp;feature=related</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Raghu Pati Ragahv Raja Ram</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=lbLO2NMtUlM&amp;feature=related</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shiv Bhajan</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=Ux_kvgL570A&amp;feature=related</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Satyam Shivam Sundaram</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=MClteDdwtvM&amp;feature=related</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sri Maha Lakshmi Chalisa</string>
+		<key>url</key>
+		<string>http://www.youtube.com/watch?v=vyHbd66ABzQ</string>
+	</dict>
+</array>
+</plist>

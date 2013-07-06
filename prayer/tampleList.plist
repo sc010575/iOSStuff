@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Hindu Temple, Slough</string>
+		<key>latitude</key>
+		<string>51.509637</string>
+		<key>longitude</key>
+		<string>-0.616941</string>
+		<key>address</key>
+		<string>Keel Drive, Slough,SL1 2XU</string>
+		<key>phone</key>
+		<string>+441753790135</string>
+		<key>url</key>
+		<string>http://www.hindutempleslough.com/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Kali Mata Mandir, Hayes</string>
+		<key>latitude</key>
+		<string>51.512668</string>
+		<key>longitude</key>
+		<string>-0.425858</string>
+		<key>address</key>
+		<string>Hayes, Middlesex. UB3 1JA</string>
+		<key>phone</key>
+		<string>+447990770619</string>
+		<key>url</key>
+		<string>http://www.kalimata.co.uk/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Ayyappan Temple</string>
+		<key>latitude</key>
+		<string>51.591533</string>
+		<key>longitude</key>
+		<string>-0.33048</string>
+		<key>address</key>
+		<string>36 Masons Av, Harrow, HA3 5AR</string>
+		<key>phone</key>
+		<string>+442088615825</string>
+		<key>url</key>
+		<string>http://www.londonayyappan.org/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Bhaktivedanta Manor, Watford</string>
+		<key>latitude</key>
+		<string>51.660315</string>
+		<key>longitude</key>
+		<string>-0.342571</string>
+		<key>address</key>
+		<string>Dharam Marg, Hilfield Lane, Watford, Herts WD25 8DT</string>
+		<key>phone</key>
+		<string>+441923851000</string>
+		<key>url</key>
+		<string>http://www.bhaktivedantamanor.co.uk/home/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Shree Ganapathy Temple, Wimbledon</string>
+		<key>latitude</key>
+		<string>51.42359</string>
+		<key>longitude</key>
+		<string>-0.188167</string>
+		<key>address</key>
+		<string>125-133 Effra Road, Wimbledon,London SW19 8PU</string>
+		<key>phone</key>
+		<string>+442085427482</string>
+		<key>url</key>
+		<string>http://www.ghanapathytemple.org.uk/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Gayatri Temple, West Hendon</string>
+		<key>latitude</key>
+		<string>51.578343</string>
+		<key>longitude</key>
+		<string>-0.240703</string>
+		<key>address</key>
+		<string>201 West Hendon Broadway NW9 7DE</string>
+		<key>phone</key>
+		<string>+442082021000</string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Highgate Hill Murugan Temple</string>
+		<key>latitude</key>
+		<string>51.573428</string>
+		<key>longitude</key>
+		<string>-0.140526</string>
+		<key>address</key>
+		<string>200A Archway Rd
+200A Archway Rd London N6 5BA</string>
+		<key>phone</key>
+		<string>+442083489835</string>
+		<key>url</key>
+		<string>http://www.highgatehillmurugan.org/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Kanaga Thurkkai Amman Temple</string>
+		<key>latitude</key>
+		<string>51.510488</string>
+		<key>longitude</key>
+		<string>-0.318644</string>
+		<key>address</key>
+		<string>5 Chapel Road, West Ealing, London, W13 9AE</string>
+		<key>phone</key>
+		<string>+442088400485</string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Hindu Temple &amp; Cultural Centre, Edinburgh</string>
+		<key>latitude</key>
+		<string>55.970479</string>
+		<key>longitude</key>
+		<string>-3.168594</string>
+		<key>address</key>
+		<string>Edinburgh, City of Edinburgh EH6 7</string>
+		<key>phone</key>
+		<string>0000</string>
+		<key>url</key>
+		<string>http://www.edinburghhindumandir.myfreeola.com/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Hindu Temple, Glasgow</string>
+		<key>latitude</key>
+		<string>55.866782</string>
+		<key>longitude</key>
+		<string>-4.279045</string>
+		<key>address</key>
+		<string>1 La Belle Place, Glasgow,G3 7LH</string>
+		<key>phone</key>
+		<string>+441413320482</string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>ISKCON Karuna Bhavan</string>
+		<key>latitude</key>
+		<string>55.636927</string>
+		<key>longitude</key>
+		<string>-3.890298</string>
+		<key>address</key>
+		<string>Bankhouse Road,Lesmahagow, Lanarkshire, ML11 0ES, Scotland</string>
+		<key>phone</key>
+		<string>+441555894790</string>
+		<key>url</key>
+		<string>http://iskconuk.com/?page_id=276</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Tayside Hindu Cultural &amp; Community Centre, Dundee</string>
+		<key>latitude</key>
+		<string>56.454889</string>
+		<key>longitude</key>
+		<string>-2.992891</string>
+		<key>address</key>
+		<string>10 Taylor&apos;s Ln , DUNDEE, Angus DD2 1AQ</string>
+		<key>phone</key>
+		<string>+441382669652</string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Radha Krishna Temple (Govinda&apos;s), Swansea</string>
+		<key>latitude</key>
+		<string>51.620712</string>
+		<key>longitude</key>
+		<string>-3.946909</string>
+		<key>address</key>
+		<string>Castle, Swansea SA1 3</string>
+		<key>phone</key>
+		<string>+441792468469</string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Hindu Cultural Society of Bradford</string>
+		<key>latitude</key>
+		<string>53.840829</string>
+		<key>longitude</key>
+		<string>-1.727305</string>
+		<key>address</key>
+		<string>321 Leeds Road, Bradford,BD3 9LS</string>
+		<key>phone</key>
+		<string>+441274395603</string>
+		<key>url</key>
+		<string>http://www.bradfordmandir.org/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Hindu Temple, Leeds</string>
+		<key>latitude</key>
+		<string>53.836347</string>
+		<key>longitude</key>
+		<string>-1.629779</string>
+		<key>address</key>
+		<string>36 Alexandra Road Leeds LS6 1RF</string>
+		<key>phone</key>
+		<string>+441132757024</string>
+		<key>url</key>
+		<string>http://www.leedsmandir.org.uk/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Hindu Temple, Newcastle</string>
+		<key>latitude</key>
+		<string>54.976438</string>
+		<key>longitude</key>
+		<string>-1.658552</string>
+		<key>address</key>
+		<string>172 West Road, Newcastle Upon Tyne, NE4 9QB</string>
+		<key>phone</key>
+		<string>0000</string>
+		<key>url</key>
+		<string>http://bhaktpariwar.co.uk/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>ISKCON Newcastle, Newcastle</string>
+		<key>latitude</key>
+		<string>54.971727</string>
+		<key>longitude</key>
+		<string>-1.629354</string>
+		<key>address</key>
+		<string>304 Westgate Road,Newcastle Upon Tyne, Tyne And Wear NE4 6AR</string>
+		<key>phone</key>
+		<string>+441912721911</string>
+		<key>url</key>
+		<string>http://www.iskconnewcastle.org/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Jalarama Shakti Mandal, Bradford</string>
+		<key>latitude</key>
+		<string>53.788405</string>
+		<key>longitude</key>
+		<string>-1.777036</string>
+		<key>address</key>
+		<string>148 Arncliffe Terrace, Bradford BD7 3AG</string>
+		<key>phone</key>
+		<string>0000</string>
+		<key>url</key>
+		<string>http://www.jaijaliyaan.com/</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Leuva Patidar Samaj, Bradford</string>
+		<key>latitude</key>
+		<string>53.789322</string>
+		<key>longitude</key>
+		<string>-1.787386</string>
+		<key>address</key>
+		<string>Legrams Mill La,Bradford BD7 2BA</string>
+		<key>phone</key>
+		<string>+441274521185</string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Radha Krishna Temple, Middlesbrough</string>
+		<key>latitude</key>
+		<string>54.569262</string>
+		<key>longitude</key>
+		<string>-1.213299</string>
+		<key>address</key>
+		<string>Radha Krishna Temple,Middlesbrough TS3 6, UK</string>
+		<key>phone</key>
+		<string>0000</string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+	<dict>
+		<key>country</key>
+		<string>UK</string>
+		<key>name</key>
+		<string>Sita Rama Temple, Huddersfield</string>
+		<key>latitude</key>
+		<string>53.644818</string>
+		<key>longitude</key>
+		<string>-1.779036</string>
+		<key>address</key>
+		<string>20 Zetland Street, Huddersfield, HD1 2RA</string>
+		<key>phone</key>
+		<string>+441484515370 </string>
+		<key>url</key>
+		<string>none</string>
+	</dict>
+</array>
+</plist>
